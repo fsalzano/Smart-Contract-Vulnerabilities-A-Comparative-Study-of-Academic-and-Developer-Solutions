@@ -1,0 +1,638 @@
+Commit,Message,URL,Tag1,Tag2,IsInLiteratureTag1,IsInLiteratureTag2,Tag,IsInLiteratureTag,IsEmployableFixTag1,IsEmployableFixTag2,IsEmployableFixTag
+7f904ac5fe743711cfaf8461b8a867f001161434,Fix slither warnings for reentrancy,https://github.com/argentlabs/argent-contracts,reentrancy,reentrancy,False,False,reentrancy,False,True,True,True
+ad6cfb293bc651606fece64afb27459b76c96f7a,"Fix theoretical integer underflow
+
+Co-authored-by: Gautham Nekkanti <onegautham@gmail.com>",https://github.com/enzymefinance/protocol,arithmetic,arithmetic,True,True,arithmetic,True,,,
+32c854fcf8d28dea3ca470cc1621982a2df87905,fix a bug in NameRegistry: integer underflow,https://github.com/Loopring/protocols,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+e53ffebb4e4081e776c8b2e32854f2aca273eb25,[AMM] Fix overflow in isAlmostEqual checks (#2062),https://github.com/Loopring/protocols,arithmetic,arithmetic,True,True,arithmetic,True,,,
+b5e5ca2f46c528a562a674b49e839f62d9df71f8,"Fixed underflow in token repartition.
+Before a juror could loose more tokens that whis balance.
+It now limits the total amount to its balance.
+Note that that potential loss exceeding balance should stay unlikely or
+otherwise we will  end up with juror dividing their accounts.",https://github.com/kleros/kleros,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+4162c9ed060eb83c13025312fcadcec042b4c1db,"Fix underflow vulnerability
+
+The maximum penalty is the balance. The previous version allowed to underflow inactiveJuror.balance-inactiveJuror.atStake and then underflow inactiveJuror.balance which could have allowed an attacker to steal everything if he had managed to have inactiveJuror.atStake>inactiveJuror.balance.",https://github.com/kleros/kleros,arithmetic,arithmetic,False,False,arithmetic,False,True,True,True
+8bc08f72c67b38cf5835177d6f93923fd2e47122,Fix for solving ray overflow problem,https://github.com/makerdao/sai,arithmetic,arithmetic,True,True,arithmetic,True,,,
+63980a140fe1b1aab8dcab28cc5c1b7e068648e3,"fix: small change to avoid overflow
+
+Signed-off-by: Claudia Bartoli Duncan <claudia@stampery.co>",https://github.com/witnet/elliptic-curve-solidity,arithmetic,arithmetic,True,True,arithmetic,True,,,
+199e43a53b17834fb66d8be055d4e6c7b9ba8bdd,Fix issue 3.2 SimplePriceOracle.price is susceptible to integer overflow,https://github.com/ensdomains/ethregistrar,arithmetic,arithmetic,True,True,arithmetic,True,,,
+996d39da5fc092227fb464ae7a971e06a5fb5433,Fix overflow checks,https://github.com/ensdomains/ethregistrar,arithmetic,arithmetic,False,True,arithmetic,False,False,False,False
+3fcb519c5489d381e4e0aac7c6e2f3dfc3cdbbce,fix: remove block.timestamp manipulation attack,https://github.com/clesaege/HackSmartContract,Time manipulation,Time manipulation,False,False,time manipulation,False,False,False,False
+8fcf19184c9100a537f8dc1bb4262c0b688542ac,"fix: small change to avoid overflow in BufferLib
+
+Signed-off-by: Claudia Bartoli Duncan <claudia@stampery.co>",https://github.com/witnet/witnet-solidity-bridge,arithmetic,arithmetic,True,True,arithmetic,True,,,
+edadac8db52a474f9722826ad0451b0908c3c10b,"fix: add small change to avoid overflow in ABSLib
+
+Signed-off-by: Claudia Bartoli Duncan <claudia@stampery.co>",https://github.com/witnet/witnet-solidity-bridge,arithmetic,arithmetic,False,True,arithmetic,True,,,
+339fa578d816ce3b6b8917841b895e2b218f1c66,Fixed ID Overflow Error,https://github.com/coindefi/COIN,arithmetic,arithmetic,False,False,arithmetic,False,False,True,False
+46e10e0d971505d59803e27317fd09428b39cc84,Fix function exploitable to reentrancy attack,https://github.com/2key/contracts,reentrancy,reentrancy,False,False,reentrancy,False,False,False,False
+cf252b663c631729fb622daa4062a4b2c0e05dad,fix/integer-overflow acquisition,https://github.com/2key/contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+c7f5b304a12f4ce4ccccf38119a453dca4f85149,fix/overflow-integer,https://github.com/2key/contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+c37e779d5743837a70f4c47f2dc5fc5274c4e062,fix/TwoKeyAcquisitionLogicHandler-overflow-issues,https://github.com/2key/contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+c25626d6c6379f559d2e8cd9023b4516b88434f7,fix/Overflow-fixes,https://github.com/2key/contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+24d08c65bfa235fea221adfc63f1c7a634416f85,fix/safemath-overflow-prevention,https://github.com/2key/contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+4b884f1bd46dc4e6e1d7d9b44f08ee6a097b8bf5,fix/reentrancy-attack,https://github.com/2key/contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+54ca1a4aa89acd54d958ebf650b55b0c1cdca02a,fix/UpgradableExchange prevent reentrancy even if the contract is trusted,https://github.com/2key/contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+1aecf40bb4528fec8dc5122f39da9d108b0ca6a7,fix/TwoKeyCongress->prevent-reentrancy,https://github.com/2key/contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+548be0a0023deddee44913d2efd493cf33af4ae2,fix/overflow-safemath,https://github.com/2key/contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+c7e43ee13941210ccd5d39efed6703765d337ca1,"NO-2385 [Q6] add overflow protection to `UInt256ArrayLib.sum` (#424)
+
+* add overflow protection to uint256 sum method; fix misc. typos
+
+* bump snapshot",https://github.com/nori-dot-eco/contracts,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+5a84bf8b85219f8ef716edc49a815b8020c144cf,Fix overflow/underflow bugs caused by not adjusting weights upon locking/freeing.,https://github.com/dapphub/ds-chief,arithmetic,arithmetic,True,True,arithmetic,True,,,
+13d1f97482905c23c62916b5dca289c156cce122,"fix DOS attack vector for challenging same SB over and over
+
+avoid subsequent challenges by checking if a SB has been defended, to not have to have submitter defend it again.",https://github.com/syscoin/sysethereum-contracts,Denial of Service,Denial of Service,False,False,denial of service,False,False,True,True
+c36d28605133871d2857907bf33dd5564d90b1e5,audit fixes: reentrancy guard,https://github.com/zeriontech/defi-sdk,reentrancy,reentrancy,True,True,reentrancy,True,,,
+8232f4245e6b0e2a3d13b644d599dad9d1d64a07,fix potential integer underflow in RelayerHub,https://github.com/bnb-chain/bsc-genesis-contract,arithmetic,arithmetic,True,True,arithmetic,True,,,
+3a6f7a1069e3ffccf20543ba79ed18030e4248cd,"FXS-07: Re-entrancy attack on collateral tokens fix, implement checks-effects-interactions pattern",https://github.com/FraxFinance/frax-solidity,reentrancy,reentrancy,True,True,reentrancy,True,,,
+32b43c55a8ef8148d63f40456a409d29e46fa538,Fixed overflow in calculateCashPrice,https://github.com/reflexer-labs/geb,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+3ea02a27a0ac8b1fd2816133f0ec82568741ceac,Fixing sub overflow.,https://github.com/teller-protocol/teller-protocol-v1,arithmetic,arithmetic,True,True,arithmetic,True,,,
+b227e209214b1d0cda6fedec2fbb294e91bc860d,"auditing fix ""Integer Overflow / Underflow""
+
+- [X] L540: savingAssetOrignalAmount += sOriginalCreated;
+
+FIXED
+
+- [X] L617: totalProportions += uint256(proportions[i]);
+
+WONTFIX
+
+code comment added:
+// safemath is not used, because:
+// proportions are uint32, there is no overflow concern
+
+- [X] L621: (uint256(proportions[i]) * uint256(PROPORTION_BASE)) /
+
+WONTFIX
+
+ditto
+
+- [X] L667: if (rGross > (account.lDebt + account.rInterest)) {
+
+FIXED
+
+- [X] L668: return rGross - account.lDebt - account.rInterest;
+
+WONTFIX
+
+code commented added:
+
+// don't panic, the condition guarantees that safemath is not needed
+
+- [X] L705: (rAmount * hat.proportions[i]) / PROPORTION_BASE;
+- [X] L717: (sInternalAmount * hat.proportions[i]) / PROPORTION_BASE;
+- [X] L801: (rAmount * hat.proportions[i]) / PROPORTION_BASE;
+- [X] L814: (sInternalAmount * hat.proportions[i]) / PROPORTION_BASE;
+
+All FIXED
+
+due to PROPORTION_BASE is not 0, safemat.div is not used",https://github.com/rtoken-project/rtoken-monorepo,arithmetic,arithmetic,True,True,arithmetic,True,,,
+463b963bc48cb98edf62e219b9a42874c4dbbe31,Fixes reentrancy error. Changes getOptionAddress to return address zero if no code.,https://github.com/primitivefinance/v1-contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+3c5e63f53a103800abdba810acf9c7f8c18d1e5f,fix all overflow errors in genrateFooter,https://github.com/skyfly200/tiny-boxes,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+b0d1bfecf1ac50a70bdb056fef5c7beaa7f517d3,fix amination 11 overflow,https://github.com/skyfly200/tiny-boxes,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+2b9a8a8365ecba3469b4bf79dc09b31dc2fdc495,Fixed: ME-02 Reentrancy Flaw Allows Skipping Fees,https://github.com/money-on-chain/main-RBTC-contract,reentrancy,reentrancy,True,True,reentrancy,True,,,
+f6dd902ddb55d7ced95fc0635cc66431f02f7d56,Use SafeMath and SignedSafeMath for arithmetics in PAMEngine and AFPDayCountConventions and fix overflow bug in AFPDayCountConventions,https://github.com/atpar/ap-monorepo,arithmetic,arithmetic,True,True,arithmetic,True,,,
+af4f0b92bb8d910e05c54477776a7db5655cabe6,"Prevent reentrancy by disallowing default context values (#363)
+
+* Prevent reentrancy by disallowing default context values
+
+* Combine with gas checks
+
+Also use a default context value for ovmNumber and blockNumber
+
+* remove unused code
+
+* fix re-entrancy reversions
+
+* clean up comment
+
+* actually fix test value
+
+* swap validity condition for nonreentrant input
+
+* fix gas spec
+
+* address PR feedback
+
+* linting
+
+Co-authored-by: Ben Jones <ben@pseudonym.party>",https://github.com/ethereum-optimism/contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+22cfee15d473c6c0cf9d0638f4e0641a309aefc5,Fix: Reentrancy issue.,https://github.com/VenusProtocol/venus-protocol,reentrancy,reentrancy,True,True,reentrancy,True,,,
+4db66416a5f844b6f5d08b97e82b7c724bba4f4a,fix: faulty underflow guard,https://github.com/yieldprotocol/vault-v2,arithmetic,arithmetic,True,True,arithmetic,True,,,
+2c6573d1ec7cadd28a4aba0b67c381aecbda21f9,fix: added an upper limit to prevent `DoS attack`,https://github.com/yieldprotocol/vault-v2,Denial of Service,Denial of Service,False,False,denial of service,False,True,True,True
+5b83ba6ba3684ab81e18920c17da7200d8b106fb,fix: Fix RLPReader overflow bug,https://github.com/0xPolygon/fx-portal,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+f81e5481f869d516ebd3baabcc834925d8033538,math overflow fix,https://github.com/DODOEX/contractV2,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+0306f7830c6e4e4168712d9063ea0383d975ffee,"Fixed an overflow (""10 * (maxPower = uint(-1))"" in wadHalfExp()), and tweaked some math in loops to save gas.",https://github.com/usmfum/USM,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+33c6bf4afaeff256c58ead783c188fa0c4fb05e4,Fixed ChainlinkOracle to avoid underflow (reject non-positive prices).,https://github.com/usmfum/USM,arithmetic,arithmetic,True,True,arithmetic,True,,,
+dfaadf652f3a947254d44b05b4ad28e36febf51c,fix overflow bug,https://github.com/pangolindex/exchange-contracts,arithmetic,arithmetic,True,True,arithmetic,True,False,False,False
+43c6e510b0f32b1cf656c4c95c1302126d47ebb2,fix possible reentrancy exploit,https://github.com/pangolindex/exchange-contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+217dad024a22b8d9606f102f84f2635aad0332d6,Fix possible overflow in receiver weights,https://github.com/radicle-dev/radicle-contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,False
+d68256f4044d9d7c83d6b296eff64f3ccc073731,fixed an underflow issue in staking contract,https://github.com/DIGITALAX/digitalax-contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,False
+52065af4c0aa77b00620c96a70c81929fd4ccbbb,fix simpleStakingNew unstaking overflow,https://github.com/Linear-finance/linear,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+a9077baa98599927e5cee7186ba775cf268b3843,Fix Chainlink answer calculation overflow in LnOracleRouter,https://github.com/Linear-finance/linear,arithmetic,arithmetic,True,True,arithmetic,True,False,False,False
+b3ee9ab990033bead7351e5302bfe7e2d5d03549,fix overflow,https://github.com/pendle-finance/pendle-core,arithmetic,arithmetic,True,True,arithmetic,True,,,
+560e97decc8cf89d8bba129da20059fd3c7b30f3,Fix a bug of possible overflow in AaveV2Forge,https://github.com/pendle-finance/pendle-core,arithmetic,arithmetic,True,True,arithmetic,True,,,
+9d5807930d4b8f7dbaca2c90faec348149e58b28,Fix bug in updating dryUpdateReserveData; add require for overflow,https://github.com/pendle-finance/pendle-core,arithmetic,arithmetic,True,True,arithmetic,True,,,
+f1bf503694c5b98ed5dc37f7eb35614e3462a038,Fix bug of possible overflow subtraction in Aave LiqMining & Market,https://github.com/pendle-finance/pendle-core,arithmetic,arithmetic,False,False,arithmetic,False,False,True,True
+a57f178825ca3c0e04b290799301d51efa1d6c48,"CVF 26 55 56 57 (#45)
+
+* Fix overflow in seek, equivalence & gas test, remove redundant normalizer & conditionals
+
+* Make test more accurate with old and new seek calculations
+
+* Accurate naming of decimals and normalization variables in test to match contract usage
+
+* Add more comments to test, fix minor discrepancies,format
+
+* Update src/UNIV2LPOracle.sol
+
+Co-authored-by: Kurt Barry <kurt@makerdao.com>
+
+* Update src/UNIV2LPOracle.t.sol
+
+Co-authored-by: Kurt Barry <kurt@makerdao.com>
+
+* Update src/UNIV2LPOracle.sol
+
+Co-authored-by: Kurt Barry <kurt@makerdao.com>
+
+* Update src/UNIV2LPOracle.sol
+
+Co-authored-by: Kurt Barry <kurt@makerdao.com>
+
+* Update src/UNIV2LPOracle.sol
+
+Co-authored-by: Kurt Barry <kurt@makerdao.com>
+
+* Remove unnecessary test
+
+Co-authored-by: Kurt Barry <kurt@makerdao.com>",https://github.com/makerdao/univ2-lp-oracle,arithmetic,arithmetic,True,True,arithmetic,True,,,
+d514dc3c6ca4f0be89678525a0d22171612e5b77,"CVF-58: Fix overflow from cast to uint128 (#47)
+
+* Fix overflow from cast to uint128
+
+* Address final comments, simplify preq requires",https://github.com/makerdao/univ2-lp-oracle,arithmetic,arithmetic,False,False,arithmetic,False,True,True,True
+1ed33233800d77fe76103f1bb96a66c7fc4d64c7,fix: potential underflow in check redeemed amount,https://github.com/emilianobonassi/yIdleStrategies,arithmetic,arithmetic,True,True,arithmetic,True,,,
+4b50799291fa8f6cfd6274bf5aad90f3a70ab90d,fix: potential underflow adjustPosition when debt > want,https://github.com/emilianobonassi/yIdleStrategies,arithmetic,arithmetic,True,True,arithmetic,True,,,
+d89e7a7d57c10b996596361a59f575d183fee94a,Fix underflow bug from reserve change,https://github.com/cVault-finance/CORE-v2,arithmetic,arithmetic,True,True,arithmetic,True,,,
+d927da12f209c8130698aef69d1b4e4bfce99c45,Fix GNBU overflow in unvesting calculations,https://github.com/nimbusplatformorg/nim-smartcontract,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+d5b21c5a064e3ba475d2b6331edaddfc39ce7161,fix: fix the overflow bug,https://github.com/DeriOne-Protocol/derione-v1,arithmetic,arithmetic,True,True,arithmetic,True,,,
+0ca4a74119d0800abc80ed66cc2e9aa740b24c24,Fixed underflow issue with currentReserves,https://github.com/Alpha-Serpentis-Developments/Project-Mimic,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+945f267fac8f936b6d081556760a66cf8827e9ea,Fix overflow bug.,https://github.com/B2E2/b2e2_contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+980e452a8f6226dd384ac6b426dded8943750ab1,"fix potential overflow in notifyRewardAmount in KUSDMinter
+fix a comment typo uppon notifyRewardAmount",https://github.com/Kine-Technology/kine-protocol,arithmetic,arithmetic,True,True,arithmetic,True,,,
+29ae8b3f54fd25b73cddd3cac47bdcc6ec77be89,"Fix overflow/underflow issue in math calc
+
+Signed-off-by: Penghui Liao <liaoishere@gmail.com>",https://github.com/paco0x/amm-arbitrageur,arithmetic,arithmetic,True,True,arithmetic,True,,,
+94f21e64dac21207be448677598cc8bc0f9df6a6,"perf: use ""mulDiv"" in ""pow"" for overflow-safe inner multiplications
+
+docs: add note about maximum value permitted in ""sqrt"" function natspec
+refactor: swap ""expected"" with ""result"" order in test files
+refactor: use uint256 in ""pow"" function
+test: fix broken sqrt max 59x18 test cases
+test: pow function",https://github.com/PaulRBerg/prb-math,arithmetic,arithmetic,True,True,arithmetic,True,,,
+50123f79d3fc1b24b5232e5b3fa2f930e00bdd03,"feat: expose ""unwrap"" via ""using for ... global""
+
+feat: add ""intoInt256"" in ""SD59x18""
+feat: add ""wrap"" and ""unwrap"" in ""SD1x18"" and ""UD2x18""
+fix: check for overflow in ""SD59x18_IntoUD2x18""
+fix: check for underflow in ""SD59x18_IntoSD1x18""
+docs: improve wording in NatSpec code comments
+refactor: change type of ""MAX_UINT128"" to ""uint128""
+refactor: change type of ""MAX_UINT40"" to ""uint40""
+refactor: revert with specific custom error in ""SD59x18_IntoUD60x18""
+refactor: simplify casting to ""SD1x18"" and ""UD2x18""
+test: add ""MAX_UINT128"" and ""MAX_UINT40"" constants in ""BaseTest""
+test: inherit from ""PRBMathUtils"" in ""BaseTest""
+test: refactor ""test_RevertWhen"" to ""testFuzz_RevertWhen""
+test: remove value type prefix from helpers and casting file names
+test: rename ""mathematical"" directory to just ""math""
+test: test all casting functions available for ""SD59x18""
+test: test all casting functions available for ""UD60x18""
+test: test ""unwrap"" and ""unwrap"" for ""SD1x18""
+test: test ""unwrap"" and ""unwrap"" for ""UD2x18""
+test: use ""x.unwrap"" instead of ""unwrap(x)""",https://github.com/PaulRBerg/prb-math,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+d9b9ed227b175262234fac0f5bd47e19f9556a9c,"fix for short address attack
+
+as suggested by /u/izqui9 here https://www.reddit.com/r/ethereum/comments/63s917/worrysome_bug_exploit_with_erc20_token/dfwmhc3/
+Attack description:
+https://blog.golemproject.net/how-to-find-10m-by-just-reading-blockchain-6ae9d39fcd95",https://github.com/tatumio/smart-contracts,short address,short address,False,False,short addresses attack,False,True,True,True
+3b4c951838ddf82f4d2b44ae7c967f0573039f28,Fix ERC777 potential reentrancy issues (#2483),https://github.com/tatumio/smart-contracts,reentrancy,reentrancy,False,False,reentrancy,False,True,True,True
+4d0fea1ed5920d0f06391344a94c407fa79dc4fc,"Fix issues with registering profit sources and overflows
+
+Signed-off-by: aybehrouz <behrouz_ayati@yahoo.com>",https://github.com/Argennon-Project/ADAGs,arithmetic,arithmetic,True,True,arithmetic,True,,,
+c1eb8a43305322bdce83884b0d635afd18184f98,"Fix overflow issues and simplify mint method
+
+Signed-off-by: aybehrouz <behrouz_ayati@yahoo.com>",https://github.com/Argennon-Project/ADAGs,arithmetic,arithmetic,True,True,arithmetic,True,,,
+74dc44bf65bd62db4a1a034748b1b2cc698b5f81,Fix MockStrategy redemption underflow bug,https://github.com/Rari-Capital/vaults,arithmetic,arithmetic,True,True,arithmetic,True,,,
+89129e99529b0095310d52396a68edf251043a9b,fix: critical underflow vulnerability fix,https://github.com/AztecProtocol/aztec-connect-bridges,arithmetic,arithmetic,False,False,arithmetic,False,True,True,True
+453d448caca8e1ad8d8c352e84bbd9101fdb81c9,fix: cos no longer overflows for large angles,https://github.com/mds1/solidity-trigonometry,arithmetic,arithmetic,True,True,arithmetic,True,,,
+6304dab587e0265ab0a36ac4ff6c6df8d86be540,fix: sub underflow,https://github.com/morpho-org/morpho-v1,arithmetic,arithmetic,True,True,arithmetic,True,,,
+2d20240cc818f8f30da0c01bf90075abe4a3d5e8,fix: sub underflow,https://github.com/morpho-org/morpho-v1,arithmetic,arithmetic,True,True,arithmetic,True,,,
+69776fa803256689ff05feb84abdee214016ac96,Fix underflows in Lens,https://github.com/morpho-org/morpho-v1,arithmetic,arithmetic,True,True,arithmetic,True,,,
+2797eb1120ddcf02dd906378c48a08873936524f,Fixed underflows when delta > p2p amount,https://github.com/morpho-org/morpho-v1,arithmetic,arithmetic,True,True,arithmetic,True,,,
+b073c5a6ecf49852b4d7b150130e936b0ac68f6b,fix getHead overflow when the DS is empty,https://github.com/morpho-org/morpho-data-structures,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+6965a891f597838aa3e67dc2db6158c3665d173f,Possible overflow in addLiquidity fixed,https://github.com/Gearbox-protocol/gearbox-contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+b68507b64523507394f585e3f46b592fcddf8bb2,"Optimization, fix reentry attack",https://github.com/Orbiter-Finance/OB_ReturnCabin,reentrancy,reentrancy,True,True,reentrancy,True,,,
+597398998e1e963741959c46f86f20523fd0efe8,fix: YearnVault::_pull using FullMath.MulDiv instead of * and / to overcome overflows and zero divisions,https://github.com/mellow-finance/mellow-vaults,arithmetic,arithmetic,True,True,arithmetic,True,,,
+209de7500ec4720b8db09c95f6cf5bb9795a507e,"underflow is avoided using unchecked (#211)
+
+fixes: now underflow is avoided using unchecked. This works due to we care only about diff",https://github.com/mellow-finance/mellow-vaults,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+23d8337ccc1915418ffc5f78e1fa5eea0d794f1f,Fix possible overflow in receiver weights,https://github.com/radicle-dev/drips-contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+2f74521bf3b0de55c996d5f8b6c30e23309110ad,Fix overflow in total amtPerSec,https://github.com/radicle-dev/drips-contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+7f4c99e2ca01bc8e58e76757450efd507380737c,withdrawFromPool tests and reentrancy fix,https://github.com/AelinXYZ/aelin,reentrancy,reentrancy,True,True,reentrancy,True,,,
+238d29d2b8ecc3b21f29ce6dfb435b77107f0f42,Potential reentrancy fix,https://github.com/Dinosaur-eggs/core,reentrancy,reentrancy,True,True,reentrancy,True,,,
+f642a15f54e1e2c6e785eaaf826f1cbc585e2c2d,Potential reentrancy fix,https://github.com/Dinosaur-eggs/core,reentrancy,reentrancy,True,True,reentrancy,True,,,
+62b656cd4158b6b84df39239a999e0c2c414c01e,"Fixes re-entrancy issues caused by lend ticket being transferred after ERC20 payment was made (#67)
+
+* clean up / fix tests
+
+* renaming
+
+* move lend ticket transfer to be before ERC20 transfer, tested",https://github.com/with-backed/backed-protocol,reentrancy,reentrancy,True,True,reentrancy,True,,,
+302f5e6966fdbfebe0f7063c9d6f6bc1f6470f28,Curve reentrancy vuln fix (#4),https://github.com/makerdao/curve-lp-oracle,reentrancy,reentrancy,False,False,reentrancy,False,False,False,False
+3365badb35b2583241f78d222335317343b1339c,fixing the second reentrancy vulnerability in the CToken,https://github.com/Midas-Protocol/contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+d5756f92b95ca9b8391998866b49691abb9d578e,fixing the booster underflow,https://github.com/Midas-Protocol/contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+65c3d9141f21e118ffd151fd90e8dbf576ff4230,fixing the fpl underflow,https://github.com/Midas-Protocol/contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+ba83a590fb458696ef2df1f9f0ce7b84406e3c9d,fixing a possible underflow,https://github.com/Midas-Protocol/contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+5cf309ccf9df3f2eda8091bea7a331de51007103,"Update list_dos.sol
+
+fixed `send` vs `transfer` issues",https://github.com/crytic/not-so-smart-contracts,Unchecked Return Values For Low Level Calls,Unchecked Return Values For Low Level Calls,True,True,Unchecked Return Values For Low Level Calls,True,,,
+82a5397467b5348e569301b89963a73991381d2e,Fix overflow on Memory.copy when len%32==0,https://github.com/ethereum/solidity-examples,arithmetic,arithmetic,False,False,arithmetic,False,True,True,True
+e62dacc51706d78ea518665aae0746a1f78e0ccd,fixed timestamp bug,https://github.com/bitcoinwarrior1/learn-solidity-with-examples,Time manipulation,Time manipulation,False,False,time manipulation,False,False,False,False
+d2d8cab54c0e06f054cd7b495131f8c553b93758,Fix short address decoding (#2),https://github.com/hamdiallam/Solidity-RLP,Short Address Attack,Short Address Attack,False,False,short addresses attack,False,False,False,False
+81b40df2fe17dbcf1e4c65d7e2f946fed23cb351,Fix for creating futarchy oracles with timestamp,https://github.com/gnosis/pm-contracts,Time manipulation,Time manipulation,False,False,time manipulation,False,True,True,True
+8d7b078c02d74da531f9527a43d1be4ce3bfab8f,fix operation order for rate calculation,https://github.com/decentraland/mana,arithmetic,Reentrancy,True,True,arithmetic,True,,,
+126a6a1dbf3f952a90a54fa67ab3f8612a6fc261,Fix race condition on approve,https://github.com/aragon/aragon-network-token,Front-Running,Front-Running,True,True,Front-Running,True,,,False
+3fcb519c5489d381e4e0aac7c6e2f3dfc3cdbbce,fix: remove block.timestamp manipulation attack,https://github.com/clesaege/HackSmartContract,Time manipulation,Time manipulation,False,False,time manipulation,False,False,False,False
+500702fe56545f108ed69f4888450afdf125e1db,"Fixed fee accounting in TwoPartyArbitrable and add access control in
+Centralized arbitrator",https://github.com/kleros/kleros-interaction,access control,access control,True,True,access control,True,,,
+192d06294bb48b2c8fc555b3dff010d4136d197e,fix: permission control,https://github.com/WePiggy/wepiggy-contracts,Access Control,Not Relevant,True,True,access control,True,,,
+d89e7a7d57c10b996596361a59f575d183fee94a,Fix underflow bug from reserve change,https://github.com/cVault-finance/CORE-v2,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+d927da12f209c8130698aef69d1b4e4bfce99c45,Fix GNBU overflow in unvesting calculations,https://github.com/nimbusplatformorg/nim-smartcontract,arithmetic,arithmetic,True,True,arithmetic,True,,False,
+d5b21c5a064e3ba475d2b6331edaddfc39ce7161,fix: fix the overflow bug,https://github.com/DeriOne-Protocol/derione-v1,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+945f267fac8f936b6d081556760a66cf8827e9ea,Fix overflow bug.,https://github.com/B2E2/b2e2_contracts,arithmetic,arithmetic,False,False,arithmetic,False,True,True,True
+beb084effda5f485159900f19ce7271ff9928796,fix: fix approve call,https://github.com/O3Labs/o3swap-aggregator-contracts,Access Control,Access Control,True,True,access control,True,,,
+1a3032bb0249f783dab485ceeb8d125d791ee2a3,Unlock timestamp fix,https://github.com/abyssfinance/abyss-lockup,Time manipulation,Time manipulation,False,False,time manipulation,False,False,False,False
+9d9ea7db1c96dc03d7c6bce8d48da77c57387ac4,Fixes underflow of delta balance,https://github.com/babylon-finance/protocol,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+ca75fb596c1b79bad024d7af8984abcab1133855,feat: fix private contract call,https://github.com/ElasticBTC-XBT/elastic-bitcoin-xbt-contract,Not Relevant,Access Control,True,True,access control,True,,,
+f99cf5766e5704bebf9dccf42bcec4496aea0066,Fix for time-related vulnerability,https://github.com/SoyFinance/smart-contracts,Time manipulation,Time manipulation,False,True,time manipulation,False,False,True,True
+9221cd4a53c3f1d9cc52019b2bee4ea2298bb8f1,[FIX] fixed underflow,https://github.com/PoCInnovation/ChainMe,arithmetic,arithmetic,True,True,arithmetic,True,,,
+aa468a78dddce2334877096b412eea369594aea5,Fix overflow issues.,https://github.com/acuity-social/acuity-atomic-swap-solidity,arithmetic,arithmetic,True,True,arithmetic,True,,,
+4dfd2112ac280e8da495cd5b76ec0a2ffab11d9c,fix: pending tickets & rng address,https://github.com/macaronswap/macaron-contracts,Not Relevant,Bad Randomness,False,False,bad randomness,False,False,False,False
+a370ea0acae10d6a9febe4029fc8b90128fd0441,bug fix: swap _lock_ ERR_REENTRY,https://github.com/xdefilab/xdefi-base,Reentrancy,Not Relevant,False,True,reentrancy,False,False,False,False
+c28a6bc00a803135c9ae6b502af165ebcf5351e6,fix: fix underflow when tipped > amount,https://github.com/yearn/ygift,arithmetic,arithmetic,True,False,arithmetic,True,,,
+4a56cec94f398d1e6edf06acffb4d044060d3f9c,fix deposit base permission control,https://github.com/radar-bear/dodo-smart-contract,Access Control,Not Relevant,True,True,access control,True,,,
+511c054d4ecb6e49dfbdef79bbf45f66379958dd,fix arithmetic,https://github.com/verynifty/vnft-contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+b045371ec14f862425e0e3873f2498f3e7a0cf54,fix addLiquidity lacks access control by adding ROUTER check and addLiquidityDirectly,https://github.com/vetherasset/vaderprotocol-contracts,access control,access control,True,True,access control,True,,,
+7e728fcde290bea31f260ac179fd712962e0a6ad,fix: deadlock condition on harvestTrigger,https://github.com/Grandthrax/yearnv2,arithmetic,Denial of Service,False,False,arithmetic,False,False,False,False
+d0f6ad499b32c091d940384253ecbe1c12509ef5,Fixed time until starving calculation,https://github.com/verynifty/vnft-contracts,Time manipulation,Time manipulation,False,True,time manipulation,False,False,False,False
+566064305d3346af98c51c7eeb0b67f12828416d,feat: add a chainlink oracle manager with support for fixed expiry times (#45),https://github.com/RollaProject/quant-protocol,Time manipulation,Time manipulation,False,False,time manipulation,False,False,False,False
+fe5e453ebdc67f464115f4656f918c3315e9bddb,fix: exercise expiry timestamp check,https://github.com/RollaProject/quant-protocol,Time manipulation,Time manipulation,False,False,time manipulation,False,False,False,False
+0306f7830c6e4e4168712d9063ea0383d975ffee,"Fixed an overflow (""10 * (maxPower = uint(-1))"" in wadHalfExp()), and tweaked some math in loops to save gas.",https://github.com/usmfum/USM-Oracles,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+4af09433a370fe021dd91c503c29a5321c1f2339,"Fixed a little bug in ethFromBurn(), which also happened to fix the weird (wrong line number) subtraction overflow errors!",https://github.com/usmfum/USM-Oracles,arithmetic,arithmetic,True,True,arithmetic,True,,,
+0384dbaaa4fcb5715738a9254a7c0a4cb62cf458,🐛 Fix totalSupply overflow in ERC6909 _mint (#391),https://github.com/transmissions11/solmate,arithmetic,arithmetic,False,False,arithmetic,False,True,True,True
+58755fc3628285d684f19f7c5ea314d706321fc5,"fix burn logic/visibility
+
+add getters for reserves + data
+
+fix first-time accumulator bug
+
+add more tests",https://github.com/Uniswap/v4-core,Access Control,Not Relevant,True,True,access control,True,,,
+8a82c0235ccfc81e6ec8a25dfd2eca4b9e373233,[fix] update cancelAsk access controls & ask deletion,https://github.com/ourzora/v3,access control,access control,False,False,access control,False,False,False,False
+9a2dd7f2347ba164e3cd70b86ce71afcedef3aff,[fix] update cancelAuction access controls,https://github.com/ourzora/v3,access control,access control,False,False,access control,False,False,False,False
+b62842d1fecdce0d985114d5a16d9d81280a5844,[fix] deploy scripts & AsksV1 reentrancy,https://github.com/ourzora/v3,reentrancy,reentrancy,True,True,reentrancy,True,,,
+7e4dfc83cb11cb30cfba3767d187667d9496ac2f,"Fixed the underFlow bug in src/binarySearch.sol (#86)
+
+Co-authored-by: Aditya <adimac@Adityas-MacBook-Air.local>",https://github.com/TheAlgorithms/Solidity,arithmetic,arithmetic,True,True,arithmetic,True,,,
+74dc44bf65bd62db4a1a034748b1b2cc698b5f81,Fix MockStrategy redemption underflow bug,https://github.com/Rari-Capital/vaults,arithmetic,arithmetic,True,True,arithmetic,True,,,
+39f39467b4370a707d93bd9b99fe6ab51e43d7e8,fix: check for reentrant call from malicious router in LSSVMPairERC20::_validateTokenInput,https://github.com/sudoswap/lssvm,Reentrancy,Reentrancy,False,True,reentrancy,False,True,True,True
+58ba03981b9b770ad7d74717b180c5a7cb3767bb,"fix: hash msg.sender with salt to prevent front-running
+
+build: add @ethersproject/contracts as dep
+chore: delete stale ""commit"" script in package.json
+chore: disable ""avoid-tx-origin"" solhint rule
+chore: fix commitlint git hook
+chore: reorder fields alphabetically in package.json
+chore: separate unit from integration test scripts
+build: upgrade dev deps
+chore: use .yaml extension for commitlintrc
+feat: add ""salt"" arg to ""deploy"" and ""deployFor"" functions
+fix: rename ProxyRegistry to PRBProxyRegistry
+test: full coverage of PRBProxyFactory
+test: full coverage of PRBProxyRegistry
+test: add third account in base context
+test: new helper functions ""getProxyAddress"" and ""getRandomSalt""
+test: refactor PRBProxyFactory fixture return type",https://github.com/PaulRBerg/prb-proxy,Front-Running,Front-Running,False,False,Front-Running,False,True,True,True
+c78f95b8f6f2320712561f712709c204f783315f,metaverse-nft: fix wrong return address in view,https://github.com/artgenexyz/nft-contracts,Access Control,Access Control,False,False,access control,False,False,False,False
+c7eed6724f872e4d3c13a9e5b28fc6e2757b8d96,Fix re-entrancy: extral calls go after checks and updates,https://github.com/Jeiwan/zuniswapv2,Reentrancy,Reentrancy,True,True,reentrancy,True,,,
+453d448caca8e1ad8d8c352e84bbd9101fdb81c9,fix: cos no longer overflows for large angles,https://github.com/mds1/solidity-trigonometry,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+e05506d802baab7cc644b342d191c24492373b93,fix: collateral balance can be lower than amount transfered for liquidation,https://github.com/morpho-org/morpho-optimizers,Access Control,Access Control,True,True,access control,True,,,
+5f7c132241e6dbdcf320cdf8deaae25e40de0b96,fix: wrong updated address in withdraw,https://github.com/morpho-org/morpho-optimizers,Not Relevant,Access Control,True,True,access control,True,,,
+cbf70685eead6a66799c2671097a0804c130a782,🔒️ (rewards manager) fix no verification of token address,https://github.com/morpho-org/morpho-optimizers,Access Control,Not Relevant,False,False,access control,False,False,False,False
+b751782763710993fce52812177e910bbfb26465,🐛 (opti) Fix timestamp reliance to block number,https://github.com/morpho-org/morpho-optimizers,Time manipulation,Time manipulation,False,True,time manipulation,False,False,False,False
+6304dab587e0265ab0a36ac4ff6c6df8d86be540,fix: sub underflow,https://github.com/morpho-org/morpho-optimizers,arithmetic,arithmetic,True,True,arithmetic,True,,,
+2d20240cc818f8f30da0c01bf90075abe4a3d5e8,fix: sub underflow,https://github.com/morpho-org/morpho-optimizers,arithmetic,arithmetic,True,True,arithmetic,True,,,
+69776fa803256689ff05feb84abdee214016ac96,Fix underflows in Lens,https://github.com/morpho-org/morpho-optimizers,arithmetic,arithmetic,True,True,arithmetic,True,,,
+2797eb1120ddcf02dd906378c48a08873936524f,Fixed underflows when delta > p2p amount,https://github.com/morpho-org/morpho-optimizers,arithmetic,arithmetic,True,True,arithmetic,True,,,
+b073c5a6ecf49852b4d7b150130e936b0ac68f6b,fix getHead overflow when the DS is empty,https://github.com/morpho-org/morpho-data-structures,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+c205906eb831739970e192568bdc694f434d8759,fix: remove unsafe unchecked arithmetic,https://github.com/morpho-org/morpho-data-structures,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+6965a891f597838aa3e67dc2db6158c3665d173f,Possible overflow in addLiquidity fixed,https://github.com/Gearbox-protocol/gearbox-contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+890e46b9e7dff5abefad2039614914fbf74de928,🔒 Fix overflow in Master,https://github.com/fei-protocol/tribe-turbo,arithmetic,arithmetic,False,False,arithmetic,False,False,True,False
+5de61f0572a516d57bfd15dfee1c2964bff92e2a,fix add sender address to args,https://github.com/mellow-finance/mellow-vaults,Access Control,Access Control,True,True,access control,True,,,
+4d19985e99cdc0fe453c5b4a77cd889fee880ebb,fix: checking that target address is not zero (ProtocolGovernance:revokeValidator),https://github.com/mellow-finance/mellow-vaults,Access Control,Access Control,True,True,access control,True,,,
+6eda0c20649cf447f8ac2db74148e830bb2b0f31,"fix: making sure that lp token amount to burn will not be greater than lp token balance of msg.sender, otherwise an arithmetic error can occur",https://github.com/mellow-finance/mellow-vaults,arithmetic,arithmetic,True,False,arithmetic,True,,,
+597398998e1e963741959c46f86f20523fd0efe8,fix: YearnVault::_pull using FullMath.MulDiv instead of * and / to overcome overflows and zero divisions,https://github.com/mellow-finance/mellow-vaults,arithmetic,arithmetic,True,True,arithmetic,True,,,
+0fd6e369e1fdba2631ceafca408847493eaa5010,fix: Missing Access Control in UniV3Oracle,https://github.com/mellow-finance/mellow-vaults,access control,access control,True,True,access control,True,,,
+c27e0adb96c440727d623d09b4dc6c54c47f7c38,fix: ContractRegistry DOS,https://github.com/mellow-finance/mellow-vaults,Denial of Service,Denial of Service,False,False,denial of service,False,False,False,False
+e568d5879547a6bb385f32820f7bb00ef7c5f30b,fix: changed arithmetic to mulDiv. Added commitYTokens to YearnVaultGovernance,https://github.com/mellow-finance/mellow-vaults,arithmetic,arithmetic,True,True,arithmetic,True,,,
+d7b0a4d842e70cd1704f67fe1d676ec7f7b923c0,fix: changed arithmetic to mulDiv. Added commitYTokens to YearnVaultGovernance,https://github.com/mellow-finance/mellow-vaults,arithmetic,arithmetic,True,True,arithmetic,True,,,
+3adbcb1e929235c5cbd42be2f25ee636d55e769f,fixes: Do not handle uninitialized elements of observations array of UniswapV3Pool in MStrategy && additional overflow checks for ratioParams,https://github.com/mellow-finance/mellow-vaults,arithmetic,arithmetic,True,True,arithmetic,True,,,
+96fcc86c5c3ba616cacf40928bac5905cc7debf0,fixes: check address of oracle for zero address in ERC20RootVaultGovernance,https://github.com/mellow-finance/mellow-vaults,Access Control,Access Control,True,True,access control,True,,,
+209de7500ec4720b8db09c95f6cf5bb9795a507e,"underflow is avoided using unchecked (#211)
+
+fixes: now underflow is avoided using unchecked. This works due to we care only about diff",https://github.com/mellow-finance/mellow-vaults,arithmetic,arithmetic,False,True,arithmetic,False,False,False,False
+23d8337ccc1915418ffc5f78e1fa5eea0d794f1f,Fix possible overflow in receiver weights,https://github.com/drips-network/contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+2f74521bf3b0de55c996d5f8b6c30e23309110ad,Fix overflow in total amtPerSec,https://github.com/drips-network/contracts,arithmetic,arithmetic,False,True,arithmetic,True,,,
+1ff1d0fde45a7687491a8bb61f4213ce7ae2338d,Fix amtDeltas overflow handling (#186),https://github.com/drips-network/contracts,arithmetic,arithmetic,False,True,arithmetic,False,False,False,False
+331f4239568e39cf42de38f99115c1a3898e9c74,fix poolmath overflow,https://github.com/muffinfi/muffin,arithmetic,arithmetic,False,False,arithmetic,False,True,True,True
+422b3d14722ce3ffe619ff29fe00a6918f20d920,fix L2: disable zero address internal acc in manager,https://github.com/muffinfi/muffin,Access Control,Access Control,True,True,access control,True,,,
+8979c8aa2e150a9cdecfd10cf9b3f864d0f33b6a,fix cvf-58: explain protocol fees overflow is acceptable,https://github.com/muffinfi/muffin,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+ff6fd243aed5d6bd6c66e7c03682821851843b89,fix cvf-126: use built-in overflow check in mulDivRoundingUp,https://github.com/muffinfi/muffin,arithmetic,arithmetic,True,True,arithmetic,True,,,
+28c474aa3937fcd7653c9d3a781cd15cddae7c3e,fix C1: blacklist TUSD legacy address,https://github.com/muffinfi/muffin,Access Control,Not Relevant,True,True,access control,True,,,
+f9c34ede90aeeadf609753900ef0b082ace9a131,vault minor fixes for lock mechanic,https://github.com/tetu-io/tetu-contracts,Access Control,Access Control,True,True,access control,True,,,
+0d219f9abf0316c8dac37d328e07d13f0487914a,fix time issue with the tests by setting time on local evm,https://github.com/AelinXYZ/aelin,Time manipulation,Not Relevant,False,False,time manipulation,False,False,False,False
+7f4c99e2ca01bc8e58e76757450efd507380737c,withdrawFromPool tests and reentrancy fix,https://github.com/AelinXYZ/aelin,reentrancy,reentrancy,True,True,reentrancy,True,,,
+f57a233f9413724bd9d2dd633f7751a627398003,"fixed deallocation and refund math, added this math check in acceptDeal() to protect agains overflow in purchaserClaim(), fixed NFT gating max allocation for erc1155 purchaseAmountPerToken",https://github.com/AelinXYZ/aelin,arithmetic,arithmetic,True,True,arithmetic,True,,,
+2b50422f8eec8acd5e6b8ed0078b9eef276f2427,"fixed deallocation and refund math, added this math check in acceptDeal() to protect agains overflow in purchaserClaim(), fixed NFT gating max allocation for erc1155 purchaseAmountPerToken",https://github.com/AelinXYZ/aelin,arithmetic,arithmetic,True,True,arithmetic,True,,,
+3d97e7c68ce184b2a29ccfb6fb0a8100c38419c5,fix unchecked-transfer issue,https://github.com/ubiquity/ubiquity-dollar,Unchecked Return Values For Low Level Calls,Unchecked Return Values For Low Level Calls,False,False,Unchecked Return Values For Low Level Calls,False,True,True,True
+70e52801adb84103448c3b0ed25315eaeed53988,fix unchecked-transfer issue,https://github.com/ubiquity/ubiquity-dollar,Unchecked Return Values For Low Level Calls,Unchecked Return Values For Low Level Calls,False,False,Unchecked Return Values For Low Level Calls,False,True,True,True
+e71aa79d31e064a5315ea8e27df57a67be4ee111,fix unchecked-transfer issue,https://github.com/ubiquity/ubiquity-dollar,Unchecked Return Values For Low Level Calls,Unchecked Return Values For Low Level Calls,False,False,Unchecked Return Values For Low Level Calls,False,True,True,True
+befa332d89b0e99da5981d4efff0a92dcfe5b576,"Fix: Reentrancy guard is not initialized and is inefficient, also its not being use",https://github.com/ubiquity/ubiquity-dollar,reentrancy,reentrancy,False,False,reentrancy,False,False,False,False
+556ffeda52e8e624942eda6df0c7b81431ccac5e,fix: underflow calculation when rewardEndTime > lastRewardTime,https://github.com/alpaca-finance/xALPACA-contract,arithmetic,arithmetic,True,False,arithmetic,True,,,
+75f7223b1238dd6f7f82afe79ed7f170579baf21,fix: Block timestamp require,https://github.com/Hector-Network/hector-contracts,Time manipulation,Time manipulation,False,True,time manipulation,False,False,True,False
+238d29d2b8ecc3b21f29ce6dfb435b77107f0f42,Potential reentrancy fix,https://github.com/Dinosaur-eggs/core,reentrancy,reentrancy,True,True,reentrancy,True,,,
+f642a15f54e1e2c6e785eaaf826f1cbc585e2c2d,Potential reentrancy fix,https://github.com/Dinosaur-eggs/core,reentrancy,reentrancy,True,True,reentrancy,True,,,
+31cafed5766fc77fc0db115d1f28a569f7563cff,fixes for access management,https://github.com/everx-labs/tonix,Access Control,Access Control,False,True,access control,True,,,
+77f3b7d3d19f713a23591abefdfb527e29087b9e,"fix: rm dependence on block.timestamp in settle, minor comment changes",https://github.com/Polymarket/uma-ctf-adapter,Time manipulation,Time manipulation,False,True,time manipulation,False,False,False,False
+a7f995db04a45b727cfa31922b55b0d5fdcc766b,fix(blockchain): fix reentrancy vulnerabilities,https://github.com/trenddapp/lottery,reentrancy,reentrancy,True,True,reentrancy,True,,,
+3365badb35b2583241f78d222335317343b1339c,fixing the second reentrancy vulnerability in the CToken,https://github.com/Midas-Protocol/contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+a562fda11a60d818b9a5440a2de7408e9cb6d349,fixing the missed unchecked blocks for overflow is desired,https://github.com/Midas-Protocol/contracts,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+acde961b1cfe5264b9ca592bd8abff9653fb5d22,fixing the careful math unchecked behaviour,https://github.com/Midas-Protocol/contracts,arithmetic,Not Relevant,True,False,arithmetic,True,,,
+d5756f92b95ca9b8391998866b49691abb9d578e,fixing the booster underflow,https://github.com/Midas-Protocol/contracts,arithmetic,arithmetic,False,True,arithmetic,True,,,
+65c3d9141f21e118ffd151fd90e8dbf576ff4230,fixing the fpl underflow,https://github.com/Midas-Protocol/contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+ba83a590fb458696ef2df1f9f0ce7b84406e3c9d,fixing a possible underflow,https://github.com/Midas-Protocol/contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+d9ceed4d1526d9d63637b8d897ebb222256a6168,"fix access control
+fix stack too deep
+
+change dateTime type to uint256
+
+add test",https://github.com/meow-jsx/Token-Swap_ETH-to-ERC20,access control,access control,True,True,access control,True,,,
+4dd34b9123a44c95b0729718d80139ab229fcb63,fix condition check,https://github.com/meow-jsx/Token-Swap_ETH-to-ERC20,Access Control,Not Relevant,True,True,access control,True,,,
+5220d004724c810f534524d5cde2eef5dce24ecb,bug fix: exercise reentrancy,https://github.com/YieldHand/OptionsMarket,reentrancy,reentrancy,False,False,reentrancy,False,False,False,False
+47b070e55ff3472fbc049c6e63f5082618d71541,fix reentrancy bug in cancelOptionOffer,https://github.com/YieldHand/OptionsMarket,reentrancy,reentrancy,False,False,reentrancy,False,False,False,False
+c7dd2be7f827b82be50452144d06ee043053145a,Fixed address 0 check and test cases,https://github.com/Pandora-Finance/Modular-contract,Access Control,Access Control,True,True,access control,True,,,
+140854b1323789e823eef9c3ac925e7363e2f015,zero check and send/transfer fixes,https://github.com/Pandora-Finance/Modular-contract,Reentrancy,Access Control,True,True,access control,True,,,
+891375cf30c2d5521ea019498277f9f85e783104,fixed access control,https://github.com/Pandora-Finance/Modular-contract,access control,access control,True,True,access control,True,,,
+dd72b1378a71a17b53830b986eb1bde4eb6ba3ae,Fix using tranferFrom() when sending from contract,https://github.com/Agusx1211/SmolPuddle,Not Relevant,Access Control,True,True,access control,True,,,
+6f35a60f0d842763da88f09ec8a28822a9b5b77f,fix incorrect timestamp check,https://github.com/coin98/coin98-token-contract,Time manipulation,Time manipulation,False,False,time manipulation,False,False,False,False
+9bc5b3d85699360320ee402b7b29ec96875135c1,fixed access control,https://github.com/Fujicracy/fuji-protocol,access control,access control,True,True,access control,True,,,
+382c1351ededcbe8602b19cbdf7d69851cc6cf9b,"Flash Loan Feature (EIP-3156)and More
+
+- Added `flashLoanFee` and `flashLoanFeeProtocol` arguments to protocol instantiation logic
+- Added `WithFlashLoan` contract (and supporting library) implementing `EIP-3156`. The protocol allows borrowers to take out collateral-free loan on any cover liquidity pool (or vault) by paying a small fee.
+- Refactored library features to use the suffix `…internal`
+- Checked each function to ensure that the usage of address arguments is not only intentional but also the trust issue is checked and documented using the `@suppress-address-trust-issue` decorator. The `address trust issue` check is performed by the `walk` script that displays potential attack vectors (related to addresses) which later could be boxed as contracts or interfaces.
+- Checked each function to ensure that the usage of `ERC-20` variable(s) inside any function is properly documented using the `@suppress-malicious-erc20` decorate. This too is checked by the `walk` script warning developers about the possibility of `malicious ERC-20` behaviors. Furthermore, all ERC-20 interactions must be performed using `NTransferUtilV2` library that ensures transfers are properly done. This is important to avoid ERC-20 tokens that send less amount to the recipient while deducting the full specified amount at the sender’s end.
+- To avoid overflow, removed the magic number `* 1 ether` on all places where it was being used as a divisor. Replaced `1 ether` with `ProtoUtilV1.PERCENTAGE_DIVISOR` which can later be customized to a smaller number.
+- Updated the documentation
+- Fixed tests and stories
+- And more",https://github.com/neptune-mutual-archived/protocol,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+2d693f4a192841baee303d4c2306adccaea7fbaa,"Pre-process B2 (part 3)
+
+Fix contracts that do not have means to receive ether (e.g. missing
+'payable' keyword). This fix is necessary because the labeled bugs
+cannot occur if the target contract cannot receive ether.",https://github.com/SoftSec-KAIST/Smartian-Artifact,Access Control,Not Relevant,True,False,access control,False,False,False,False
+cbb2a7f652c9f3f0bd3e7c095c760bc7ddfb37f5,fix: `from` of Deal event should be zero address if token is defaulted,https://github.com/thematters/contracts,Access Control,Access Control,True,False,access control,True,,,
+1f2469aa04206d07f41a9d21a5f59aab2c6cf622,fixed time periods,https://github.com/Janmajayamall/coco-contracts,Time manipulation,Time manipulation,False,True,time manipulation,False,False,False,False
+9760ea23a233069da4352ff0405f6de8fd8a9057,Fixed: underflow after substraction,https://github.com/Intercoin/StakingContract,arithmetic,arithmetic,True,True,arithmetic,True,,,
+070d9a4c54cbeb4d4aef126f0246da62e7d9cc6e,fixed possible to overflow,https://github.com/Intercoin/StakingContract,arithmetic,arithmetic,True,True,arithmetic,True,,,
+87d5db79f337aaa4dc9b9f6fbf79f5d636ec19dc,"avoid potential re-entrancy vulnerability, resolve #32",https://github.com/THORWallet/smartcontract,Reentrancy,Reentrancy,True,True,reentrancy,True,,,
+fafc2eaa000c91bf9b45bd4f9862256f743e34ba,feat: fix potential reentrancy exploit,https://github.com/primitivefinance/rmm-examples,reentrancy,reentrancy,False,True,reentrancy,True,,,
+03e0dc9ad2ed5353f09f047d45e07d094362dad2,fix uint8 overflow warning,https://github.com/xendfinance/x-vault,arithmetic,arithmetic,False,True,arithmetic,True,,,
+f1405e5eab1f0263b4d8a1f01bdf46f5713d6052,auction: fix potential reentrancy bug,https://github.com/Cerebellum-Network/Freeport-Smart-Contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+36f560f8eaaee674917c217b1c09a55ca31f74ce,fix(): new owner cannot be zero address,https://github.com/Web3-Architects/open-rental,Access Control,Access Control,True,True,access control,True,,,
+37767317cfdd54232d5937f5d9d4a3899a48ac1e,fix(): add more checks for zero addresses,https://github.com/Web3-Architects/open-rental,Access Control,Access Control,True,True,access control,True,,,
+1a1b97ec43e5879582ad252f10d06f9f1bc5cdd3,fix reentrancy bug,https://github.com/YieldHand/OptionsMarketLiquidityPool,reentrancy,reentrancy,True,True,reentrancy,True,,,
+5209c001bcdaf66edf2e78128b2321985ca12e96,Fix resolver exploit with possible unauthorised resolver calls - make permissionless with access control,https://github.com/GetAlluo/liquidity-direction-protocol,access control,access control,True,True,access control,True,,,
+fc802371082612b4105ca13022c63a12a5c30576,access modifier fixes,https://github.com/Metapass/metapass-contracts,Access Control,Not Relevant,True,True,access control,True,,,
+1d1aab1776143f400b3bf55ae69daeae9b38853a,fix access checker,https://github.com/VWBL/VWBL-protocol,Access Control,Access Control,True,False,access control,True,,,
+40448a90d7fa98c49835b08e4d13a56c1576edec,fix: access checker by erc1155,https://github.com/VWBL/VWBL-protocol,Access Control,Access Control,False,False,access control,False,False,False,False
+76c1fdc66230d7dce7cc9615b6262c794eecfc22,"fixes for overflows + approvals
+
+- contract to be approved once (call approveContracts() once deployed )
+- fixed some order of operations resulting in overflow / underflow
+- adjusted decimal place used in % calcs to be consistent throughout contract",https://github.com/RoboVault/robo-vault-v1,arithmetic,arithmetic,True,True,arithmetic,True,,,
+dd97f6aa250133456a0ee3347b1187922259354b,Fix Reentrancy bugs,https://github.com/AmazingAng/WTF-Solidity,reentrancy,reentrancy,True,True,reentrancy,True,,,
+390fd88cfa65832df7f80361e54e9b2de24e3e97,fix: Underflow when degrees are zero,https://github.com/lens-protocol/core,arithmetic,arithmetic,False,True,arithmetic,False,False,False,False
+6db52e1d2e65591d51d85c7b62847c5bcb310db6,"fixed overflow error, reduced max number of tips to 64",https://github.com/ProjectOpenSea/seaport,arithmetic,arithmetic,True,True,arithmetic,True,,,
+eec30606d2bb1c4115e3288bc70a9fb411996a42,fix minting to 0 address and add initial execute,https://github.com/ProjectOpenSea/seaport,Access Control,Access Control,True,True,access control,True,,,
+a332419860608d9d491f2f39bd7a81f4fcad481c,fix nonreentrant; small optimizations for fulfillordertest; bump num optimization runs,https://github.com/ProjectOpenSea/seaport,Reentrancy,Reentrancy,False,False,reentrancy,False,False,False,False
+ab35c045468bfa3b74e0ccb2307358f6dd74cbe6,🔒 Fix randomness flaw,https://github.com/artgobblers/art-gobblers,Bad Randomness,Bad Randomness,False,True,bad randomness,False,True,True,True
+9a7075240c196def482f246b667b5922f7dbb794,🔒 Fix randomness flaw,https://github.com/artgobblers/art-gobblers,Bad Randomness,Bad Randomness,False,True,bad randomness,False,True,True,True
+ae0ae17c52c536c09e46eb835bd8bfc194c2e700,"♻️ Fix timestamp for mint start (#177)
+
+Co-authored-by: t11s <greenfeatherhelp@gmail.com>",https://github.com/artgobblers/art-gobblers,Time manipulation,Time manipulation,False,False,time manipulation,False,False,False,False
+de9014e0e41bc1efbe00fa2a375ad30a6a163d31,fix randomness issue,https://github.com/0xngmi/tubbies,Bad Randomness,Bad Randomness,False,True,bad randomness,False,False,True,False
+1ee68bebfd42cf384a0c73b43078c78de689a3a8,"fix: change public into external
+
+Functions that have no internal call should be listed as external instead of public to save gas.
+(Because external functions can read directly from calldata, but public functions immediately copies array arguments to memory)",https://github.com/Crossbell-Box/Crossbell-Contracts,Access Control,Not Relevant,True,True,access control,True,,,
+4d7f4873b0c71c6aed840f02e59d8ee43cd46ed2,fix a security issue where caller can adulterate 'to' address in swap calldata to steal accumulated fees in contract,https://github.com/chainhop-dex/chainhop-contracts,Access Control,Access Control,True,True,access control,True,,,
+bca25206a8d45809971c14297c5942ba826e9cc0,fix: sum underflow in fyTokenOutForSharesIn,https://github.com/yieldprotocol/yieldspace-tv,arithmetic,arithmetic,True,True,arithmetic,True,,,
+b767e259e48df9a181265940e3875b76b5572825,fix:  address underflow,https://github.com/yieldprotocol/yieldspace-tv,arithmetic,arithmetic,False,True,arithmetic,True,,,
+7d091e2cfceff48c7ad8c539c1c9ef725564e5d2,fix: overflow on newCumulativeratioLast accumulator,https://github.com/yieldprotocol/yieldspace-tv,arithmetic,arithmetic,True,True,arithmetic,True,,,
+474096a4a3c7cad148d677e305d1a00a33a9261f,fix: clearer underflow checks,https://github.com/yieldprotocol/yieldspace-tv,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+c600506d9fca2f93afd6c623e16c1cac15103a46,fix underflows,https://github.com/yieldprotocol/yieldspace-tv,arithmetic,arithmetic,True,True,arithmetic,True,,,
+7bfde8fd01c972217ad78c3a426b424ac7673186,fix: disable not-rely-on-time on contracts we save block timestamp,https://github.com/kreskohq/kresko-protocol,Not Relevant,Time manipulation,False,False,time manipulation,False,False,False,False
+b4c422e6d12e711deb251b4506d10d08ded0ebab,fix: add check for underflow,https://github.com/kreskohq/kresko-protocol,arithmetic,arithmetic,False,True,arithmetic,True,,,
+b5c3e95efcd065b8a853697ba4ccfdf9e2efa780,fix: 30 - use call to transfer native token,https://github.com/kreskohq/kresko-protocol,Reentrancy,Reentrancy,False,True,reentrancy,False,True,True,True
+bdc2aeef0b23434cffd522496b512fa8c1263b33,fix: use access control with uints,https://github.com/SocketDotTech/socket-DL,access control,access control,False,False,access control,False,False,False,False
+d0cc404d78792485865eb57c7e89c5363ff7bc93,fix: use access control extended to batch role calls,https://github.com/SocketDotTech/socket-DL,access control,access control,False,False,access control,False,False,False,False
+01f1b51bd725cf0797a912c64b65c31f9e04e578,fix: take refund addresses as inputs,https://github.com/SocketDotTech/socket-DL,Access Control,Access Control,False,False,access control,False,True,True,True
+9a0b043ac555f5dd4e319726c380427c4ba1be7d,fix: send value to sender if inbound reverts,https://github.com/SocketDotTech/socket-DL,Access Control,Access Control,True,True,access control,True,,,
+9d628a87c89b4f11f4f97e0e4f794ba13ccdf2c4,fix: call updateState before repaying assets to LToken (#176),https://github.com/sentimentxyz/protocol,Reentrancy,Not Relevant,False,False,reentrancy,False,False,False,False
+3c65157430269c570d25cf146f5a0e03d7c67864,fix: remove revert strings from access control,https://github.com/notional-finance/leveraged-vaults,access control,access control,False,False,access control,False,False,False,False
+1e5524ea1f87a7532f00729ad72c32110b66b510,fix: update reentrancy check,https://github.com/notional-finance/leveraged-vaults,reentrancy,reentrancy,False,False,reentrancy,False,False,False,False
+2b31066fdb0274488398f5b0d2041f3293a36c8b,fix reentrancy on the claim option proceeds (#72),https://github.com/hookart/protocol,reentrancy,reentrancy,True,True,reentrancy,True,,,
+3744fff36c65b3b6f5ce6de6171cce83f51b7f52,fix: drop msg.sender from randomness generation,https://github.com/smartcontractkit/chainlink-automation-templates,Bad Randomness,Bad Randomness,False,True,bad randomness,False,True,True,True
+3c2a829987d1a152ba931432ad604e62fd3ef179,🐛 fix arithmetic order to prevent underflow,https://github.com/arcadia-finance/arcadia-lending,arithmetic,arithmetic,True,True,arithmetic,True,,,
+6d6666ce22460591e9b728c4db6b27da44c05a07,"fix: use safecast for timestamp, add natspec for new internal",https://github.com/morpho-org/morpho-aavev3-optimizer,Time manipulation,Time manipulation,False,False,time manipulation,False,False,False,False
+16a1fdbb756ef813438e1c1f3511c41fc3518ef9,fix: add zero address check for skim,https://github.com/morpho-org/morpho-aavev3-optimizer,Access Control,Access Control,True,True,access control,True,,,
+9df4724539768dce7de896178de5958043da9fdb,fix: overflow check added,https://github.com/faheelsattar/OP-Queue,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+d70d69cf9a3172c44fa7261b899e32df4ab8c690,fix: added link to access control method,https://github.com/bgd-labs/aave-proposals,access control,access control,False,False,access control,False,False,False,False
+fbfd67d821b0810e69c52c59ba6f089671d9e6e4,chore: fix underflow error and code refine (#23),https://github.com/bnb-chain/greenfield-contracts,arithmetic,arithmetic,True,True,arithmetic,True,,,
+6458efefb34d07f8f170a9ae9ff8934c746cf1a9,fix: read-only reentrancy attacks within `CmnHub` (#93),https://github.com/bnb-chain/greenfield-contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+3927afd9ae724711ea73a7153c33bdce30d20973,fix: Add zero address check for owner in initialize (#71),https://github.com/aave/Aave-Vault,Access Control,Access Control,True,True,access control,True,,,
+dd231719a23508ec9bd60bd2d268fdd51b8157ec,"fix scripts, add timestamp check to oracle",https://github.com/with-backed/papr,Time manipulation,Time manipulation,False,False,time manipulation,False,False,False,False
+e2d4ba2339372426de9ce6f58e6a656e66f22e8b,"Fix issues flagged in BlockSec audit
+
+- Prevent read-only reentrancy by moving guard to _previewInterest (#126)
+
+- Verify that passed addresses are Lenders when claiming rewards (#127)
+
+- Fix divide before multiply in BalanceSheet (#128)
+
+- Add comment regarding oracle cardinality upkeep (#129)
+
+- Fix liquidation conditionals to avoid zero liabilities swap (#131)",https://github.com/aloelabs/aloe-ii,reentrancy,reentrancy,False,False,reentrancy,False,False,False,False
+7cbae4761f05c24f2fbd7f2acbd8dfcac0d591d0,"[RoninGateway] Fix Reentrancy Attack (#176)
+
+fix contract",https://github.com/axieinfinity/ronin-dpos-contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+b0eca3d9efbd3eb4005ef9b2015f8f6c506d0b8e,fix time and block handling,https://github.com/corpus-io/tokenize.it-smart-contracts,Time manipulation,Time manipulation,False,True,time manipulation,False,False,False,False
+e08271085ab3e821f4ccd5c91e49376ba637ee1d,fix overflow (#13),https://github.com/GridexProtocol/core,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+c5ffb929dcc459e8d17ffa2323fd24af5a5a0870,Fixed reward debt and added reentrancy guard,https://github.com/sushiswap/sushiswapV1,reentrancy,reentrancy,True,True,reentrancy,True,,,
+0c7808089dbd48b22e106ba2a9423c0752c752e4,Fix DOS vector in daily borrow limit,https://github.com/InverseFinance/FiRM,Denial of Service,Denial of Service,False,True,denial of service,False,True,True,True
+abb769f0be40263441ba244f30a7264d2860ad59,"fix: to18ConversionFactor overflow, add tests",https://github.com/alpaca-finance/alpaca-v2-money-market,arithmetic,arithmetic,True,True,arithmetic,True,,,False
+f9934fe5d5eaaf061f4dab110a7b99efda7efb20,Fix overflow finding,https://github.com/crispymangoes/uniswap-v3-limit-orders,arithmetic,arithmetic,False,False,arithmetic,False,True,True,True
+5959965e1e7c2c957b762a29bd00cbddc80a0189,"More tests, fix arithmetic underflow in Pool.debitTraderProfit",https://github.com/capofficial/protocol,arithmetic,arithmetic,False,False,arithmetic,False,True,False,True
+95f39212c38f4b37e020390f23cd6ff23a49a998,"Refactor code, include interfaces, fix reentrancy
+
+- Include Interfaces for Pool.sol, Store.sol, CLP.sol and Chainlink.sol
+- Fix reentrancy in Pool.sol
+- Set Store.orderId from public to internal
+- Set Store.getUserPoolBalance from public to external
+- Change storage location for external function arguments from memory to calldata",https://github.com/capofficial/protocol,reentrancy,reentrancy,True,True,reentrancy,True,,,
+c19009ee58071552735bf6c20e25511f7d34ab3c,Fix reentrancy in Trade.sol,https://github.com/capofficial/protocol,reentrancy,reentrancy,True,True,reentrancy,True,,,
+e7f83a783e8049b1d5608ef7cd4139b087744bc6,fix loanHealth underflow,https://github.com/sector-fi/sector-contracts,arithmetic,arithmetic,False,False,arithmetic,False,False,True,False
+d9f8981e86d9ed13f3c7aa4f11af3b7df3f8ddb5,"fix: make sale inactive first on the buy function, prevent possible re-entrancy",https://github.com/showtime-xyz/showtime-contracts,Reentrancy,Reentrancy,True,True,reentrancy,True,,,
+d06769bd19872a1c8a76610380bf2a729dc5bcce,fix overflow guard in muldiv,https://github.com/Frankencoin-ZCHF/FrankenCoin,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+e2f97f2fd815a717a47a5cbc1faa7b2c091ebcb3,developeruche: fixed initial bug in precertificate token with repect to the change in access control,https://github.com/Bloceducare/Web3Bridge-DAO,access control,access control,False,False,access control,False,False,False,False
+49db3033572a125fbafa25b3ea7c0eaae0c113be,fix 5. Possible ddos of an expiration time,https://github.com/p2p-org/eth-staking-fee-distributor-contracts,Denial of Service,Denial of Service,True,False,denial of service,False,True,True,True
+ab0a2a584ac76289cf435ae5318277071d7eabb1,fix L6. A missing zero address check,https://github.com/p2p-org/eth-staking-fee-distributor-contracts,Access Control,Access Control,True,True,access control,True,,,
+a479d74924e4f46b098ebb6481b876236928a9a0,fix underflow in test,https://github.com/Layr-Labs/eigenlayer-contracts,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+13a58991ef64b6b3b9f59cf89fbf683d5c155ad3,"fixing internal/external setup, added check for underflow, used prank to simplify preconditions for external testing",https://github.com/crytic/properties,arithmetic,arithmetic,True,True,arithmetic,True,,,
+7a0f1e2df2ae47bd00532b78127cdf6a18e3d4d0,fix: Use getDiff to fix overflow issue in createLoanAndFund (#141),https://github.com/maple-labs/maple-core-v2,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+27f67b1e4ecf142e1d74d2902c064853cceb9622,Fixed SER-01 | Potential Reentrancy Attack (Incrementing State),https://github.com/erc6551/reference,reentrancy,reentrancy,True,True,reentrancy,True,,,
+244ed7e9367f2174fbd3457e0b9bb374724470a5,Fixed ERR-02 | Out-of-Order Events Due to Reentrancy,https://github.com/erc6551/reference,reentrancy,reentrancy,True,True,reentrancy,True,,,
+58ee0da2858347d97f541c9f709b153640f519d2,:passport_control: Fix access control vulnerability in doSlash function,https://github.com/jcsec-security/solidity-security-course-resources,access control,access control,True,True,access control,True,,,
+0b965e09b03c807e4671621fe5f41933f88e376a,"Fix off by one tokenId error
+
+i must be incremented after the pointer arithmetic but before the event emission",https://github.com/showtime-xyz/SS2ERC721,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+c9b1353b242894f373687ad62167ac626e2dc752,"Fix overflow in SS2ERC721._ownerOfPrimary(uint256)
+
+We failed to catch that behavior because we exit early if _ownersPrimaryPointer is not set, hence it's useful to add a mint() in these tests",https://github.com/showtime-xyz/SS2ERC721,arithmetic,arithmetic,True,True,arithmetic,True,,,
+88708de37a800abf2944dcfb3c76108828ee0722,reentrancy tests - minor fix,https://github.com/bancorprotocol/carbon-contracts,reentrancy,reentrancy,False,False,reentrancy,False,False,False,False
+0eb5bbdede95d7a161db454c0c7ad7c7e6bacad2,fix create liqs calc and add some randomness,https://github.com/marsfoundation/sparklend-deployments,Not Relevant,Bad Randomness,False,False,bad randomness,False,False,False,False
+b651f2845f799d199810b8d6bca9d9bef728e066,fix: warning of low level call,https://github.com/morpho-labs/smart-contract-challenges,Unchecked Return Values For Low Level Calls,Unchecked Return Values For Low Level Calls,True,True,Unchecked Return Values For Low Level Calls,True,,,
+e51704e408d0173621e70bc21106fd73b14ec86e,fix: remove transfer and send,https://github.com/morpho-labs/smart-contract-challenges,Reentrancy,Reentrancy,False,True,reentrancy,False,True,True,True
+37eef1ef9a2a8855dbfdb513fcdcf5f104dfefd1,fix: remove reentrancy in ex13,https://github.com/morpho-labs/smart-contract-challenges,reentrancy,reentrancy,True,True,reentrancy,True,,,
+49ed2e38340915990a414a168b9d57ee77b98cdf,fix: reentrancy attack,https://github.com/morpho-labs/smart-contract-challenges,reentrancy,reentrancy,True,True,reentrancy,True,,,
+ea9a72eb7b2b65af9d741ca00c3d51a13367821c,fix: overflowing deposit,https://github.com/superform-xyz/superform-core,arithmetic,arithmetic,True,True,arithmetic,True,,,
+1bb2e4573fdff889567720d0d50847dd019a7c17,"chore: add reentrancy guards, fix fuzz error",https://github.com/superform-xyz/superform-core,reentrancy,reentrancy,True,True,reentrancy,True,,,
+37a024a0a6090dcf308c3eebafe118ab16b5985c,fix: lowlevel call address 0 validation,https://github.com/superform-xyz/superform-core,Not Relevant,Access Control,True,True,access control,True,,,
+b3b78878f9549f0dfd4e4bf02e68d7bcd0945fae,fix: add revert on zero address,https://github.com/superform-xyz/superform-core,Not Relevant,Access Control,True,True,access control,True,,,
+353d1dd89e0afa97e528b2c37322723a887efff6,fix: assembly overflow in DataLib,https://github.com/superform-xyz/superform-core,arithmetic,arithmetic,False,False,arithmetic,False,False,True,False
+0eaeee1afc5c27eda68eb966a4c6cd1d795cbe63,fix: add zero address checks,https://github.com/superform-xyz/superform-core,Access Control,Access Control,True,True,access control,True,,,
+0bded3c6dc821fc4dbdc6dc72b96213f4189d2f5,chore: add zero address validation & fix payment helper,https://github.com/superform-xyz/superform-core,Not Relevant,Access Control,True,True,access control,True,,,
+9e3d4e5b9d8929900253cc3c17d358a5c213792e,"Fix overflow/underflow issue in math calc
+
+Signed-off-by: Penghui Liao <liaoishere@gmail.com>",https://github.com/azvast/evm-arbitrage-bot,arithmetic,arithmetic,True,True,arithmetic,True,,,
+720ed7d2ba498e44cc38c74743bb80961aff9c85,[fix] reentrancy attack on 721 (#146),https://github.com/immutable/contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+26fb67b44a9690649ccb82fb28e10977348313c5,Fix bug in vox2 that underflows when negative diff is too small compared to par/fix,https://github.com/hai-on-op/core,arithmetic,arithmetic,True,True,arithmetic,True,,,
+32b43c55a8ef8148d63f40456a409d29e46fa538,Fixed overflow in calculateCashPrice,https://github.com/hai-on-op/core,arithmetic,arithmetic,True,True,arithmetic,True,,False,
+c2fd078aa81d3b0fcec40d489b9889bdc2360735,fix: overflow check in _formatExecuteParams,https://github.com/voteagora/governor,arithmetic,arithmetic,False,False,arithmetic,False,False,True,False
+83ab2501ea2cfb00a5f5b6b0dc92833b4463582f,fix: possible underflow unintended revert in `_afterExecute`,https://github.com/voteagora/governor,arithmetic,arithmetic,True,True,arithmetic,True,,,
+97442502c62fd530e169f8d548c99f1645002cc2,fix: add missing access control,https://github.com/HMXOrg/v2-evm,access control,access control,False,False,access control,False,True,True,True
+e944af1cfc72fa85fbf5f421a96a376fb227a4f8,feat: fix execution scope to prevent reentrancy,https://github.com/HMXOrg/v2-evm,reentrancy,reentrancy,False,True,reentrancy,False,False,True,True
+d76c2e15b6c817293983c7b9356c514703f2cfd5,fix: add access control,https://github.com/HMXOrg/v2-evm,access control,access control,False,False,access control,False,False,False,False
+e9fc5c8389823ca35b5433b5078923e87742a2b2,fix: remove duplicate access control,https://github.com/HMXOrg/v2-evm,access control,access control,False,False,access control,False,False,False,False
+7f1d8de22e7a84d65ac918b52f4f939102b98dee,update: fix arithmetic underflow for hlpVal,https://github.com/HMXOrg/v2-evm,arithmetic,arithmetic,True,True,arithmetic,True,,,
+317dbbe76ae1a818d363d46d44fa2ae4d82b3fb2,fix: prevent underflow when tvl-aum,https://github.com/HMXOrg/v2-evm,arithmetic,arithmetic,True,True,arithmetic,True,,,
+25877762366318c3cd9cab219cb0f4ec01ee51b3,make getAvailableWithdrawalAmount require expiry < timestamp to be consistent with fix from #54,https://github.com/wildcat-finance/wildcat-protocol,Time manipulation,Not Relevant,False,False,time manipulation,False,False,False,False
+e1664b39b105570808e9f9e556a5b05c477a5bc7,fix: pre-wrap small uints to avoid overflows,https://github.com/Gearbox-protocol/core-v3,arithmetic,arithmetic,True,True,arithmetic,True,,,False
+c3380be02f5091661f52931a002437ad13bfac9d,"fix: fix overflow handling in usdt fees library
+
+Fixes finding ""8.3 Inconsistent Overflow Handling""",https://github.com/Gearbox-protocol/core-v3,arithmetic,arithmetic,True,True,arithmetic,True,,,
+23db32a0cdf68983b2da6c0acfbccbf4775de0f3,"fix: fix pool's `_updateBaseInterest`
+
+In rare cases the function could wrongly revert due to arithmetic underflow.
+Now, delta is added to expected liquidity, which includes both quota revenue and base interest.
+Besides, accrued quota revenue is added to stored expected liquidity.",https://github.com/Gearbox-protocol/core-v3,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+bab18ce321420fe8899913f63c621af1ece67ace,fix: implicit overflow + usdt fees,https://github.com/Gearbox-protocol/core-v3,arithmetic,arithmetic,True,True,arithmetic,True,,,
+446b90e92eb47e95414296950ab475e45f6408c0,fix Reentrancy in Vault._distributeMarketEarning,https://github.com/chromatic-protocol/contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+2d24f602b2543dd246aad01f88ce919057d20f89,"Fix code scanning alert - Reentrancy vulnerabilities
+Fixes #479",https://github.com/chromatic-protocol/contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+8d75db5fd6469b4986dfc2a9f7b91a2bfc731fbd,"Fix code scanning alert - Missing zero address validation
+Fixes #487",https://github.com/chromatic-protocol/contracts,Access Control,Access Control,True,True,access control,True,,,
+2e9f358d848f5fd4502ed8497c6977dc94ff0822,"Fix code scanning alert - Low-level calls
+Fixes #492",https://github.com/chromatic-protocol/contracts,Unchecked Return Values For Low Level Calls,Unchecked Return Values For Low Level Calls,True,True,Unchecked Return Values For Low Level Calls,True,,,
+4e97253f69bd12c6daa117e288106917ff581d99,"Fix code scanning alert - Reentrancy vulnerabilities
+Fixes #494",https://github.com/chromatic-protocol/contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+4f85b82d1356c56b4c5200d79b8048021e0e310c,"Fix code scanning alert - Reentrancy vulnerabilities
+Fixes #498",https://github.com/chromatic-protocol/contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+9888948c3574a3c71095497f189ffe1ae9d53fd8,"Fix code scanning alert - Reentrancy vulnerabilities
+Fixes #502",https://github.com/chromatic-protocol/contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+d92cb83610f57873a579f2974e7c7a97cf8c8cac,"Fix code scanning alert - Block timestamp
+Fixes #510",https://github.com/chromatic-protocol/contracts,Time manipulation,Time manipulation,False,False,time manipulation,False,False,False,False
+149ffc584db7b6e8ec1a2718c3a46843a2699850,"Fix code scanning alert - Missing zero address validation
+Fixes #523",https://github.com/chromatic-protocol/contracts,Access Control,Access Control,True,True,access control,True,,,
+6f1428e22e3929479134587e4882658d5a0a880e,"Fix code scanning alert - Block timestamp
+Fixes #525",https://github.com/chromatic-protocol/contracts,Time manipulation,Time manipulation,False,False,time manipulation,False,False,False,False
+77b7f0779e28dc406ca7def338cb6be37ca6b771,"Fix code scanning alert - Low-level calls
+Fixes #527",https://github.com/chromatic-protocol/contracts,Unchecked Return Values For Low Level Calls,Unchecked Return Values For Low Level Calls,False,False,Unchecked Return Values For Low Level Calls,False,False,False,False
+9ef069ac22ad518a61bce8d688c6664c85a7f739,"Fix code scanning alert - Reentrancy vulnerabilities
+Fixes #529",https://github.com/chromatic-protocol/contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+1e54470d55e908c66fb04b2f9f4a50160ba5e7e4,"Fix code scanning alert-Reentrancy vulnerabilities
+Fixes #531",https://github.com/chromatic-protocol/contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+f0551a6dbfdac4dbd31d4ee3429478937d459738,"Fix code scanning alert - Reentrancy vulnerabilities
+Fixes #535",https://github.com/chromatic-protocol/contracts,reentrancy,reentrancy,True,True,reentrancy,True,,,
+05b6813c3053389976d313c47846cc06f2855198,"Fix code scanning alert - Reentrancy vulnerabilities
+Fixes #539",https://github.com/chromatic-protocol/contracts,reentrancy,reentrancy,False,False,reentrancy,False,False,False,False
+e900ab09c80154ebe4997841ee8b20b03fcc4dc3,"Fix code scanning alert - Reentrancy vulnerabilities
+Fixes #498",https://github.com/chromatic-protocol/contracts,reentrancy,reentrancy,False,False,reentrancy,False,False,False,False
+1c216981016a791b37dabb80b2fd682ca5d62e57,"Fix code scanning alert - Reentrancy vulnerabilities
+Fixes #611",https://github.com/chromatic-protocol/contracts,reentrancy,reentrancy,False,False,reentrancy,False,False,False,False
+788e193e4739f7aebb398012b790fec2eaad88c6,Fix Reentrancy vulnerabilities,https://github.com/chromatic-protocol/contracts,reentrancy,reentrancy,False,False,reentrancy,False,False,False,False
+6fe2c3b7dea2f12feff022ecb47abfd2b9b35af3,"Fix `absDiff` function and snapshot command in package.json
+
+The absDiff function in TernaryLib.sol has been updated to prevent overflow of int256 when computing the difference between two uint256 values. This is achieved by handling the subtraction operation differently based on whether 'a' is greater than 'b'. Additionally, the snapshot and snapshot:diff command in package.json was simplified by removing unnecessary options (--via-ir and --evm-version cancun).",https://github.com/Aperture-Finance/uni-v3-lib,arithmetic,arithmetic,True,True,arithmetic,True,,,
+a8992f97acfced7f18f5e24d0f34487b0f035b04,Fix overflow of ExpiryUtilsLib,https://github.com/gabrielyiu/pendle-core-v2-public,arithmetic,arithmetic,True,True,arithmetic,True,,,
+bd198cb836a6596e16ece191a4753e219a634f32,[SF] Fix possible front-run issue of initializer,https://github.com/gabrielyiu/pendle-core-v2-public,Front-Running,Front-Running,False,False,Front-Running,False,True,False,True
+156d30627b16b6520e12c733a672753ed33a92de,[BUG] Fix re-entrancy issue for indexCurrent in YT,https://github.com/gabrielyiu/pendle-core-v2-public,Reentrancy,Reentrancy,False,False,reentrancy,False,True,False,False
+4b2046e6b92aa08883f16db8f72ce632152d40c6,[IMPT][MF] Fix read-only reentrancy of Balancer,https://github.com/gabrielyiu/pendle-core-v2-public,reentrancy,reentrancy,True,True,reentrancy,True,,,
+1a4e62ebb7b1a665a2af51e73ad79b252c0cee8e,fix: add snark field after hashing to prevent snark field overflow (#25),https://github.com/sismo-core/sismo-connect-onchain-verifier,arithmetic,arithmetic,True,True,arithmetic,True,,,
+361a5dbe629c131f2d039d60cfcff031f9368534,InventoryStaking#withdraw: fix reentrancy,https://github.com/NFTX-project/nftx-protocol-v3,reentrancy,reentrancy,True,True,reentrancy,True,,,
+c09a88c95eecff75099c279f4b666262a03ba386,fix: CreateVaultZap: Allow to pass large upperNFTPrice without overflow,https://github.com/NFTX-project/nftx-protocol-v3,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+c3278b3b3fc785b975deae92156c13cf08923c57,fix: Prevent underflows in TLM (#181),https://github.com/maple-labs/pool-v2,arithmetic,arithmetic,True,True,arithmetic,True,,,
+24018bfff8ba292cf2618b267caef95b9b1e5732,Fix ownership check + Use correct sender address in tests,https://github.com/thirdweb-example/erc-6551,Access Control,Not Relevant,True,True,access control,True,,,
+b30f33715f36aa6088f3f6066b4985a8ea74bae3,fix decimal error causing overflow. H-3,https://github.com/Blueberryfi/blueberry-staking,arithmetic,arithmetic,False,False,arithmetic,False,False,False,False
+8a21d06b5a74dda6ca05ddedc278feef19417e71,"🩹 Fix reentrancy at `issue` & `redeem` functions (#24)
+
+Co-authored-by: Maximiliano Vargas <43217761+mvargas33@users.noreply.github.com>",https://github.com/arch-protocol/chambers,reentrancy,reentrancy,False,False,reentrancy,False,True,True,True
+64ce20a384b58e3d21d4da4e2ec8bdeb89dd4757,fix: Use FullMath to calculate rates on computeRebalancingTrade function to avoid overflows,https://github.com/flashliquidity/flashliquidity-arbiter,arithmetic,arithmetic,True,True,arithmetic,True,,,
+2fa4727771f1f0b4edfa1799dd24243152995ba3,fix underflow possibility,https://github.com/FastLane-Labs/atlas,arithmetic,arithmetic,True,True,arithmetic,True,,,
+c9b4f86bfa977750f9a849128446abc29bf0ce4c,fix: ignore bid instead of reverting if causing overflow,https://github.com/FastLane-Labs/atlas,arithmetic,arithmetic,False,False,arithmetic,False,True,False,True
+7ed097579ed7998d9493d54c4afde57e6bcf882b,fix: check that signatory is not address zero,https://github.com/morpho-org/morpho-blue,Access Control,Access Control,True,True,access control,True,,,
+90af2aea986db732d132a83994db584116ffaecd,fix: [ALC-LA2-4] revert when transferring to 0 address (#49),https://github.com/alchemyplatform/light-account,Not Relevant,Access Control,True,True,access control,True,,,
+a34b193f217f53a0abe2775b1cce2f41de68ff87,fix: disallow msg.sender == target for call(),https://github.com/euler-xyz/ethereum-vault-connector,Not Relevant,Access Control,True,True,access control,True,,,
+26fb67b44a9690649ccb82fb28e10977348313c5,Fix bug in vox2 that underflows when negative diff is too small compared to par/fix,https://github.com/open-dollar/od-contracts,arithmetic,arithmetic,False,True,arithmetic,False,False,False,False
+32b43c55a8ef8148d63f40456a409d29e46fa538,Fixed overflow in calculateCashPrice,https://github.com/open-dollar/od-contracts,arithmetic,arithmetic,True,True,arithmetic,True,,False,
+ba23bf348db5b1f23078d0c0139e34bc0409530c,fixed access control on governance contracts,https://github.com/open-dollar/od-contracts,access control,access control,True,True,access control,True,,,
+eb45d63e457e4503389f97d9fb8ae99e01a33b6f,fix uint8 overflow for shares calculation,https://github.com/GenerationSoftware/pt-v5-prize-pool,arithmetic,arithmetic,False,True,arithmetic,False,False,False,False
+b12287785b1aaaa20b288b4da206682e5d4fc77a,fix: access control on validateUserOp,https://github.com/rhinestonewtf/modulekit,access control,access control,True,True,access control,True,,,
+dcf8ce57eed8226c3a2aae5c421c4e79375bf502,test: fix bad check for the deadline,https://github.com/catalystdao/GeneralisedIncentives,Access Control,Access Control,False,False,access control,False,False,False,False
+20c27d375a114688c0ead33e0bbfd9e8801e7dc9,fix: correct dos attack from foreign and bad escrow,https://github.com/catalystdao/GeneralisedIncentives,Denial of Service,Denial of Service,False,False,denial of service,False,False,False,False
+433fe6f937ee2ef03b867694103889b45c498c76,fix: do not override the receiver address,https://github.com/euler-xyz/evc-playground,Not Relevant,Access Control,False,False,access control,False,False,False,False
+afd8c11b983a991d86d64ab2162d818e8f8a65fd,fix: reentrancy,https://github.com/morpho-org/metamorpho,reentrancy,reentrancy,True,True,reentrancy,True,,,
+eee733c5207f3ea54f6eac2ee1c601e164e781c0,fix: removed reentrancy guard (#167),https://github.com/manifoldfinance/mevETH2,reentrancy,reentrancy,False,False,reentrancy,False,False,False,False
+63edde66d91c263b919fe9c21e128a382219880e,chore: test fix fuzz entry for re-entrancy (#179),https://github.com/manifoldfinance/mevETH2,Reentrancy,Reentrancy,False,False,reentrancy,False,False,False,False
+071507420b6797f3bec811e8b4b900d032ac9ee8,chore: fix test and reentrancy risk,https://github.com/manifoldfinance/mevETH2,reentrancy,reentrancy,True,True,reentrancy,True,,,
+a84260ad0030f1bbdab34b2e9c3a9908b88a558e,fix access control,https://github.com/manifoldfinance/mevETH2,access control,access control,True,True,access control,True,,,
+ad6cfb293bc651606fece64afb27459b76c96f7a,"Fix theoretical integer underflow
+
+Co-authored-by: Gautham Nekkanti <onegautham@gmail.com>",https://github.com/enzymefinance/protocol,arithmetic,arithmetic,True,True,arithmetic,True,,,
