@@ -2,3 +2,5 @@ pandas
 termcolor
 scikit-learn
 matplotlib
+pydriller
+Spacy
