@@ -81,7 +81,8 @@ pip install -r requirements.txt
   - Calculates Cohen's Kappa to measure inter-rater agreement for manual analyses.
 
 ------
-
+## **Mining**
+- The mining folder contains scripts for mining.
 ## **Sample Dataset**
 
 - `/sample_of_interest/relevant_commits.csv`
