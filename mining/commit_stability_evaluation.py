@@ -1,5 +1,5 @@
 import pandas as pd
-from pydriller import Repository
+from pydriller import Repository, ModificationType
 
 
 
@@ -8,16 +8,18 @@ def get_later_commits(repo_url, commit_hash, file_path, commit_date):
     Trova tutte le commit successive alla commit specificata
     che hanno modificato il file dato, escludendo le merge commit.
     """
-    print(commit_date)
+
+    print(repo_url)
     if not commit_date:
         print(f"Commit {commit_hash} non trovata nel repository {repo_url}")
         return []
 
     commits = []
-    for commit in Repository(repo_url, only_no_merge=True, since=commit_date).traverse_commits():
-        for mod in commit.modified_files:
-            print(mod)
-            if mod.new_path == file_path or mod.old_path == file_path:
+    for commit in Repository(repo_url, only_no_merge=True, since=commit_date, only_modifications_with_file_types=['.sol']).traverse_commits():
+        modified_files = [file for file in commit.modified_files if file.change_type == ModificationType.MODIFY]
+        for mod in modified_files:
+
+            if mod.filename == file_path :
                 commits.append({
                     "commit_hash": commit.hash,
                     "author": commit.author.name,
