@@ -1,0 +1,509 @@
+repo_url,commit_hash,message,has_to_be_caught,caught
+https://github.com/ubiquity/ubiquity-dollar,809f14954cdca49a25bdce1199a623e31e5c1916,test: minting fuzz tests parameters tweaks,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,eae30515c549b1d537d96977cd7803284fef1f88,REF | Remove turnover updating on marketing contract for staking contracts.,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,e86ede21c9a23e710e833716479db773d1326279,Remove doubled file,False,False
+https://github.com/ubiquity/ubiquity-dollar,120df8569323c67882d5cadbf36a97f3081cf231,test: add tests for CreditRedemptionCalculator,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,959068932e65b2bbd0861c147f27806708ae68dd,"Remove referral program marketing, register users through referral users contract",False,False
+https://github.com/pangolindex/exchange-contracts,352178b687ac7e75dfe430635036e431e48262fc,Audit fixes,False,False
+https://github.com/ubiquity/ubiquity-dollar,24dbf9f7643fd7a8f4fd96788714c2fdf9055984,refactor: move staleness threshold to state var,False,False
+https://github.com/ubiquity/ubiquity-dollar,282ad1fe05fa3949952c1fc66108b578982822a6,fix: slither issues,False,False
+https://github.com/pangolindex/exchange-contracts,4c7c3c6c9c19db6f80fb0655425f0aed5712be0b,fix GovernorAlpha update threshold to constructor,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,de2fbb0710deb9078a64ded7cce302439b082a03,fix: audit Omniscia EVC-01M,False,False
+https://github.com/hamdiallam/Solidity-RLP,3a5d10230c32561f972d34f611bdac3f9423536c,more thorough tests. starting datatype conversions,False,False
+https://github.com/ubiquity/ubiquity-dollar,ac6316f2fa589d411eafa91cb5d4fe867ea13eb7,fix: renamed CreditNFT to CreditNft,False,False
+https://github.com/pangolindex/exchange-contracts,803ee45cca0a571ca4321937cf62b707e1777803,move assumptions to comments,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,507ad79634c365bd3ca3ad9f433da3c9abf2012b,Add ReferralProgramMarketing integration to staking and InitialAcqusition contracts.,False,False
+https://github.com/ubiquity/ubiquity-dollar,cacea0cacb0fd576f0ca5509acf132e91e617054,test: upgrade to facet,False,False
+https://github.com/ubiquity/ubiquity-dollar,e46b26cadaf970ef29cb03b0f9309872400628ce,fix:broken tests,False,False
+https://github.com/pangolindex/exchange-contracts,f1bf56b5737aa276ca8bb731533f98f644dd4804,stash array length to save gas on loop,False,False
+https://github.com/ubiquity/ubiquity-dollar,312ba0720db34443a43d8ca99f99ee906f13ab26,test: add tests for UbiquiStickSale,False,False
+https://github.com/ubiquity/ubiquity-dollar,efa05b3a665a3aff1b99644e70c785fe92877627,refactor: remove token symbols in StakingShare,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,aeb45a6dfaf8978d20f0ec0501b4e308481a9dcf,fix: IVault interface change,False,False
+https://github.com/ubiquity/ubiquity-dollar,8d18a8c4422586ef72f09aea7a7f5f8b308bf6a2,refactor: remove unnecessary Context,False,False
+https://github.com/ubiquity/ubiquity-dollar,1f9c525b854ed52e36729ff99c0b5153d72ecbcf,fix(contracts): error capitalization,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,45fa966e2b7054baa1e8c93ef37c7668405efb13,fix: audit Open-Zeppelin N-05,False,False
+https://github.com/flashliquidity/flashliquidity-arbiter,e64cd1c6a13f0ee319bd419e6687ac78e2473879,feat: add getAdapterArgs function for adapter compatibility with FlashLiquidity aggregator,False,False
+https://github.com/ubiquity/ubiquity-dollar,c02a7f537f7320578755ae0fca5e330e75ee8cbe,"solidity version, remove empty file",False,False
+https://github.com/ubiquity/ubiquity-dollar,abd9e8b3804b852da91b5ebc2859df54d90f9841,feat: fixed linting,False,False
+https://github.com/flashliquidity/flashliquidity-arbiter,deed7e56056f3c5f0b39e3e4b0d4c57bf5f378c5,"feat: Add trigger profit for rebalancing ops
+
+Introduces a trigger profit threshold to initiate the rebalancing operation, minimum profit threshold is now used to revert operations if profits fall below this limit",False,False
+https://github.com/euler-xyz/ethereum-vault-connector,78514441704ca724ceeb4d25ccc7e8c352a59eda,fix: set related docs improvements,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,df29f9bc43e8112ca4f90245155030c4271b8d32,CI fix,False,False
+https://github.com/ensdomains/ethregistrar,e2862a1b65eacf3e74aa55c2bb6cb31cf83cc4b4,Accept an address to 'reclaim',False,False
+https://github.com/ubiquity/ubiquity-dollar,222355de776ece7d50e55ec68bcf0d5e840e75e7,test: add Dollar redeem fuzz tests skeleton,False,False
+https://github.com/ubiquity/ubiquity-dollar,7251532f865df8210ed28aa87c3fb42dd08be085,fix: resolve conflicts,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,cfa3a99e51d0aec405d3ce561f6f5ab28f369b78,Fix wrong parameter,False,False
+https://github.com/ubiquity/ubiquity-dollar,44e9bf50252f0e2b2ff1aec639f647e45c1dd4f3,test(pool-facet-handler): refactor the income fuzz parameters,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,8c98bec1b44c0de5f0bcbff4a74dbd248ad9d29e,Rename NimbusInitialAcquisition,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,6d8d1762a778ade6264a640b7cbaa089541bbcc3,"remove OZ dependency, implement a nonce per operator",False,False
+https://github.com/ubiquity/ubiquity-dollar,66db497d8758c9f8a528c770e9099df6ae7e0e7d,"chore: fix some comments
+
+Signed-off-by: jianghuyiyuan <shuangcui@live.com>",False,False
+https://github.com/ubiquity/ubiquity-dollar,befa332d89b0e99da5981d4efff0a92dcfe5b576,"Fix: Reentrancy guard is not initialized and is inefficient, also its not being use",True,True
+https://github.com/euler-xyz/ethereum-vault-connector,cf639feaedf2ca02b728f97a4b99e3602e10548a,CER-78 (#106),False,False
+https://github.com/ubiquity/ubiquity-dollar,ccbfb2d513d6fd10dd8cec4d14ac5c250137a0cf,Add comments.,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,9bf6c9d5fc345c370de2d42a11b3de8b283474a5,fix: tests,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,28b32c7091fbea3eb8b16f022ca3241a0ba377af,test: fix,False,False
+https://github.com/hookart/protocol,43bd1613e0b927064ca51cc043a07546780b0b0c,"Deploy latest protocol to testnet with updated tokenURI (#74)
+
+* token uri
+
+* update tokenuri and deploy goerli
+
+* new ropsten
+
+* update tokenURI with the url""
+
+* deployment
+
+* migrations
+
+* cleanup deployer scripts",False,False
+https://github.com/ubiquity/ubiquity-dollar,8fee39e616353a73258d4a096e0f8a7084e1ea9c,resolve remapping issue,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,58d07ed633875dc032e19757d159bbefd4eab294,Fix typo in contract name,False,False
+https://github.com/fei-protocol/tribe-turbo,daf04d0d36b13081c02719af9447300563cd6cda,safe creation,False,False
+https://github.com/fei-protocol/tribe-turbo,fa92ac31074a62c27cfd25364f7a14a16043d826,💥 Booster fixes,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,564c45a1f2000ab19641d369d9f4ef6980c1f4ad,fix lending error,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,4e1dcbb17a785f0dceda8a68a8079e3db047d1c1,typo fix,False,False
+https://github.com/pangolindex/exchange-contracts,2bd2f72e7145077541deeb4a6037f3b3dec6da80,"add reward tracking to v2 contracts
+
+* pools now have ""reward rate""
+* factory owner can set reward rate of a pool
+* reward rate is used to calculate reward per active liquidity
+  accumulator
+* Oracle library is used to update reward per active liquidity
+* Tick library snapshots the accumulator value outside each tick
+
+* nft/liquidity manager contract keeps track of the delta of the
+  reward per active liquidity accumulator for each position
+* it holds the address of a separate contract which can be called
+  from the nft manager to notify and claim the pending rewards of a
+  user
+* factory owner can change the contract that will distribute the rewards
+* factory owner can also change nft descriptor
+
+* pools now use clones to reduce storage size
+* immutable pool variables are not immutable anymore due to proxy
+  limitations
+
+* nft manager contract optimizer run steps have been reduced to
+  decrease storage size
+* various little tricks has also been utilized reduce storage size,
+  such as using internal functions inside modifiers",False,False
+https://github.com/fei-protocol/tribe-turbo,6ba0e18d692fcf9aacd99d9b8a7d2cddef8aafe8,🚚 Rename test file,False,False
+https://github.com/ubiquity/ubiquity-dollar,77e676703d4ba17e1c0c05ab7e886b4060aa385d,docs: add UbiquityPool docs,False,False
+https://github.com/hookart/protocol,8248a5eb1cc2473cde329a5aad409e2be2ad0e56,"[Feature] [Events] add protocol state events (#19)
+
+These events can be indexed to understand the state of the protocol better. For example, listing which instruments and vaults exist, 
+and the paused state of the overall protocol if it needs to be halted for some reason.",False,False
+https://github.com/Dinosaur-eggs/core,c210290906001412551ed67f34bbfc20b134c9e6,add getRemaining,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,6410bcd1d21e50f2fc58776a61597a5e04495db0,"fix: docs
+
+Signed-off-by: kasperpawlowski <25374117+kasperpawlowski@users.noreply.github.com>",False,False
+https://github.com/ubiquity/ubiquity-dollar,2dbd2da4f16184c8f3609970db7217660c54ec90,feat: full test suite for AMO minter,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,7aa81f0df678f62b58199340e96c44960f0f25cc,Rearrange folder file locations,False,False
+https://github.com/hamdiallam/Solidity-RLP,6db68b54c82438042feaad8173115406fff3ae7c,initial structure. working on the encoder,False,False
+https://github.com/pangolindex/exchange-contracts,0d0f3c2ad49c0546862559d9b34073725fe74bee,add compatibility contract for fee collector,False,False
+https://github.com/flashliquidity/flashliquidity-arbiter,64ce20a384b58e3d21d4da4e2ec8bdeb89dd4757,fix: Use FullMath to calculate rates on computeRebalancingTrade function to avoid overflows,True,True
+https://github.com/hamdiallam/Solidity-RLP,1aac67146b7127f68b74991a22e80e1c86d5a128,some conversions,False,False
+https://github.com/flashliquidity/flashliquidity-arbiter,0d9d411b9417f1fd08dea6c810836a5f4b2ca340,"feat: Implement minimum Arbiter LINK balance for data streams report requests, default to data feeds if below threshold",False,False
+https://github.com/euler-xyz/ethereum-vault-connector,853c0419a084f3474d0507fc88c2265bee44859d,move docs,False,False
+https://github.com/ubiquity/ubiquity-dollar,808e538aa52865f41a10916b022747ab8be17e66,Adds cspell ignore files and words,False,False
+https://github.com/ubiquity/ubiquity-dollar,0cb6f6440eaccccbc555cb50d39f0b9c4e3c7714,refactor: remove token symbols in TWAPOracleDollar3pool,False,False
+https://github.com/ubiquity/ubiquity-dollar,421eae9d4d21491de4699f89603c215848da35ff,tests complete,False,False
+https://github.com/ubiquity/ubiquity-dollar,65b03dd02f87845ae640498dee31d5cdd06b3704,feat: PR comments,False,False
+https://github.com/pangolindex/exchange-contracts,51643e0006784ac962b3d3b93cd6d1b039124221,fix: ElixirFactory and ElixirPool.arbitrage tests,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,0f7ad5fe299dde38bdd23dfa5f8998bedb1c5bcf,chore: forge fmt,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,93711671bfbde0267f2ff173303b54d3c1de1956,test(certora): add execution context invariant,False,False
+https://github.com/pangolindex/exchange-contracts,ed230f169c6c59a1499e483216789697539cc39b,rename variable,False,False
+https://github.com/ubiquity/ubiquity-dollar,075871c9a0ded49ae38e9cabfa3c389edd77c8a6,Renamings,False,False
+https://github.com/pangolindex/exchange-contracts,1e173bc820aface089682ea724a57735eb22ff49,Pure pairFor function,False,False
+https://github.com/ubiquity/ubiquity-dollar,e18f161fb0367231b4a00abfb9dd28f4f70b05a2,test: increase ChefFacet test coverage to 100% (#837),False,False
+https://github.com/pangolindex/exchange-contracts,8810d5835db593ab5fc5134fe14d867a482e915c,add contract to divert emissions,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,d2652cf886acdac521b7d37aba15a2ae1cab8870,return require,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,71012cbdb477f8cfac29337e6b6cdea7af751857,CER-40 High Priority Rules (#102),False,False
+https://github.com/ubiquity/ubiquity-dollar,7a94780e2e565c0b65485dfefbdcf09bdbde0d80,fix(slither): immutable values,False,False
+https://github.com/ubiquity/ubiquity-dollar,971c4c0dcba3250f65d0f20e4ca570d5692237ce,build bump,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,57946bb89f52817d398ad0b6fb322be17e2631ac,fix: rename MAX_ELEMENTS to SET_MAX_ELEMENTS,False,False
+https://github.com/pangolindex/exchange-contracts,6592ff56a77a6a3e493ba835c77dee4cdea493cb,ensure we always snapshot,False,False
+https://github.com/ubiquity/ubiquity-dollar,f3951208a8a4f04d0badd8bf22b0d5ded5e6f9b3,feat: deploy metapool in mainnet,False,False
+https://github.com/fei-protocol/tribe-turbo,29713bd015fd82dc26538ed27f58065e8355d74c,⚡️ Safe external calls,False,False
+https://github.com/ubiquity/ubiquity-dollar,3256f04e3cb925604e5b29f78264d44cd3255824,create BondingFormulas.t.sol and prettier,False,False
+https://github.com/ubiquity/ubiquity-dollar,a734a04f5d9603abbac7fcb653844d8cff6ab647,Add comment.,False,False
+https://github.com/ubiquity/ubiquity-dollar,49f792f3d4da8c7a346838f932aa70545621c888,feat: solidity scripting devlopment deploy,False,False
+https://github.com/hamdiallam/Solidity-RLP,e3c1e3dc590af5b027f8dd96cddeb625e9cd7a0d,max 0.8.17 single line function modifiers/return. specify solc version in truffle config (#19),False,False
+https://github.com/ubiquity/ubiquity-dollar,f751a1341d9972df74f73d181a14ffa83d5db2c2,renaming,False,False
+https://github.com/fei-protocol/tribe-turbo,6457612de4fa7555cf132328d51d68669e93ba71,⚡️ Optimize double read,False,False
+https://github.com/ubiquity/ubiquity-dollar,b5fb8c3cc36fd01dc51cb6dd8fe18c3a6e922965,refactor(values): change nft capitalization from capitalized to camelcase,False,False
+https://github.com/Dinosaur-eggs/core,6296ad6b38f1debf0dec5e4df6b5483fa66fe480,up,False,False
+https://github.com/ubiquity/ubiquity-dollar,a4b338c5f4eb276a78e75534d76dd1e770e21000,chore(diamond): update test vars,False,False
+https://github.com/flashliquidity/flashliquidity-arbiter,7ab09b202fe4d7143622523aaa16654cda9e86f2,"Implement reserve-based profit triggers for pool rebalancing in Arbiter
+
+- Shift profit evaluation for rebalancing triggers from fixed USD values to a dynamic ratio of pair reserves to generated profit.
+
+- Replace 'Arbiter__InvalidMinProfit' error with 'Arbiter__InvalidProfitToReservesRatio' to align with the new reserve-based logic.
+
+- Modify 'minProfitUSD' and 'triggerProfitUSD' parameters to 'reserveToMinProfit' and 'reserveToTriggerProfit', indicating the minimum and trigger profit ratios relative to pool reserves.
+
+- Adapt unit and integration tests to validate the new reserve-based profit calculations for pool rebalancing operations.",False,False
+https://github.com/Dinosaur-eggs/core,cf91e54c8d2b3addd711670cca46d6c9934583a8,up,False,False
+https://github.com/ubiquity/ubiquity-dollar,6fc145fbac6c3cce820990f5852c29f0066d58ba,fix: PR review changes,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,550421b897a2baf299a278ef9142bb696a8823e5,examples fix,False,False
+https://github.com/ubiquity/ubiquity-dollar,9eb5f68359700b0ee6c1cfb7dd08fec60544ccf8,TWAPOracle,False,False
+https://github.com/pangolindex/exchange-contracts,08182cc90890393660d2c8ad0327988329457dc5,Appropriate permit deadlines,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,c4075c452a2ae6fc69eed2ed3f30c5c4d6d9c7bf,Smart contracts updates,False,False
+https://github.com/hookart/protocol,8894b466e53c77b87f3d5f246b3c681fdde3ceac,Migrating to github,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,12f378d00c8487b48b4f7687abe187c794307e0b,feat: forward returned data from call() and impersonate(),False,False
+https://github.com/ubiquity/ubiquity-dollar,5285033aff0f9bce09c1110aa52ce8bf3b940dd0,fix: natSpec comment typo,False,False
+https://github.com/ubiquity/ubiquity-dollar,faa770f17077861f27a9e4f1fa49dae83c9135ce,docs: add Credit redemption docs,False,False
+https://github.com/ubiquity/ubiquity-dollar,8dd1b0dd5542d0dfc3ff955bc80c92af4ce73371,Remove yeildProxy contract,False,False
+https://github.com/ubiquity/ubiquity-dollar,763643e768726b8f8fd37789f3463d94bb300444,"Revert ""fix: added back the collectable dust files""
+
+This reverts commit f5334fa4559bbc816291effb5797818bb7733d9b.",False,False
+https://github.com/ubiquity/ubiquity-dollar,bb8286b52a42e897037838db1ca1c3617dc1fd01,test: fix tests for DollarMintExcess,False,False
+https://github.com/ubiquity/ubiquity-dollar,8f0f55fce9ecdde8ebd94776030a4e811f84994e,feat: fixed cspell,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,128551c032b5297bcb2aa95ee4e132630e51a0cb,"test fixes, unified controller status event",False,False
+https://github.com/pangolindex/exchange-contracts,41e1203846da3cb26e291982fbcb060372b0fc32,fix remove 100% revert bug,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,3cf52299756ec2047ed4a2334f95e51151cc7ece,Fix error message,False,False
+https://github.com/ubiquity/ubiquity-dollar,536358c296b80d4c07e938731e65e780d99a5a9f,Renamings,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,fc8ff4f44c5de644d914a05cced32be267ac4c21,chore: improve natspec,False,False
+https://github.com/ubiquity/ubiquity-dollar,597b7dbb2c87491c95c28111e11621b634f10f19,"test: add test_setPoolRevertsWhenFirstAddressIsNotDollarToken test case
+
+The test case verifies revert if first coin in meta pool is not Dollar.
+
+Resolves: #838",False,False
+https://github.com/ubiquity/ubiquity-dollar,4569b88e6af0fad04323f7ed0f453dc97bf0d05e,"fix(solidity scripts): review comments
+-code redundancy
+-clean up whitespace",False,False
+https://github.com/ubiquity/ubiquity-dollar,d763bd1104c90f5730dc475d2a85b0d759cf8c0e,complilation errors,False,False
+https://github.com/pangolindex/exchange-contracts,09d2f6260d5badce9f6a5b31b9072354028391c0,add special rewarder for songbird,False,False
+https://github.com/ubiquity/ubiquity-dollar,11647fe658ac5edd878b661c56272822d71f1da0,ci: fix,False,False
+https://github.com/fei-protocol/tribe-turbo,b62bd97f1abfda4fa6cddfc3edc5703ff78875c1,🚚 Move Fei into interface,False,False
+https://github.com/ubiquity/ubiquity-dollar,0ae3143506ae81b16b8a79793cd3f2d96b2a7b9f,a bunch of refactors to make slither working,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,b3ddf9e5eeca52d5d24b25295737a0e43c1a1a6e,fix: https://github.com/spearbit-audits/euler-vciso-review/pull/1\#pullrequestreview-1709811983,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,4924c2fc8d617b3b88c83e2b107e4c39a67c70e6,"fix: https://github.com/spearbit-audits/euler-vciso-review/pull/8\#pullrequestreview-1739485531, added checked address to the returned data type",True,True
+https://github.com/ubiquity/ubiquity-dollar,2d5cc43381b1f30eb9552e2809137f6586ff5836,use native forge fmt,False,False
+https://github.com/ubiquity/ubiquity-dollar,d45949dcf04df82169a33e86a385d6357050383f,refactor(DiamondTestSetup): rename IUbiquityPoolFacet to ubiquityPoolFacet,False,False
+https://github.com/ubiquity/ubiquity-dollar,a71581dc47df2a1ac20f9d1858e5fe3681c00037,refactor(DiamondTestSetup): add implementation suffix,False,False
+https://github.com/pangolindex/exchange-contracts,9e50e031038e33e2ef4a6ea1f8253027d8cd51c0,few more optimizations,False,False
+https://github.com/pangolindex/exchange-contracts,292205eb47202f6400ad1a4bcd6667007fb4e7c5,simplify logic & add more comments,False,False
+https://github.com/ubiquity/ubiquity-dollar,a317586ef1d1794d9e9b21f3bef2cfe395781382,fix: slither issues,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,f97b1ba46db54a36c6c8d571df22877db1346423,Remove check is user part of referral program for buy and purchase functions,False,False
+https://github.com/pangolindex/exchange-contracts,1d70f49f2a1d23694dc585797ca0c470cb8faaa7,switch ownable with claimable,False,False
+https://github.com/fei-protocol/tribe-turbo,7e954c1f687f6da04c83f53f1eb0ef939c424f5a,📝 Comments,False,False
+https://github.com/fei-protocol/tribe-turbo,10150bcb0485298af3dd0dfdd6f29b313a6ac048,public safe creation in deployer,False,False
+https://github.com/fei-protocol/tribe-turbo,b2cde2816aaa476705b8cc960f2f7e0eda48ef62,contract deployer,False,False
+https://github.com/pangolindex/exchange-contracts,43e6be9a137681f5b85aae8c1379e7663d3af172,fix reward claiming for the relayer pool,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,1c436af3379ed507bd6473f86633c109582cc077,add logging for enabling/disabling controllers,False,False
+https://github.com/ubiquity/ubiquity-dollar,c0b376a21fcb2c1b022cc01aeaf4c39a2415bcd1,refactor: remove token symbols in CreditNFT,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,bef8923231e79a8dbc792271d2430f34940a84db,test: fix,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,db207ad863ab6bf1ead91baeabe41cc7a30ab1d5,Fix userUnvested and small refactoring,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,18c47ee0efc74702f75351424abf0d5a44faa8b7,Add immutable and constant keywords for state variables,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,79986853bf4795f517fd853010f65ade0c2d305e,fix: https://github.com/spearbit-audits/euler-vciso-review/pull/8\#pullrequestreview-1745781794,False,False
+https://github.com/ubiquity/ubiquity-dollar,fcb748b7350e76384235df75918def0c4912f477,fix: cspell errors,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,1170dc444947624650d598ec16d3d09389cb7465,fix: call target cannot be ERC-1820 registry,True,True
+https://github.com/ubiquity/ubiquity-dollar,c8b41c4c8754d60a1af784a2cd89c39ee9b18a15,up to slither 204,False,False
+https://github.com/pangolindex/exchange-contracts,0e99020cf1971fb6b26941f12e2c8542ebebda8b,fix vester and metadata contracts,False,False
+https://github.com/ubiquity/ubiquity-dollar,a08e45206a89fffbf1b0c287422e621de794d099,fix: mock contract name,False,False
+https://github.com/pangolindex/exchange-contracts,656b5d12bae1eabdd40cfd5c1598bee5a667118d,update team vester contract,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,03b0e92afc2395378ef0909119f72c3a90627155,fix: audit Open-Zeppelin L-05,False,False
+https://github.com/ubiquity/ubiquity-dollar,77c12e89baf23b7e9353af07c7014958edfb0ebc,Fixes comment misspellings,False,False
+https://github.com/ubiquity/ubiquity-dollar,ac23c2642855a7f29436da1c758c61a88abc5428,feat: modified tests,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,413bb3cbe28612721fc6c81981e759131c529d12,"feat: replaceCollaterals added, tests improvement",False,False
+https://github.com/ubiquity/ubiquity-dollar,3070e2707d7c5a72f81c99ba66510b46e6fac5c3,feat: added tests to bonding curve,False,False
+https://github.com/ubiquity/ubiquity-dollar,70e52801adb84103448c3b0ed25315eaeed53988,fix unchecked-transfer issue,True,True
+https://github.com/ubiquity/ubiquity-dollar,035347ff4f1b1c9cf61659b263c6a372daf3e158,fix(dapp): deploy scripts contract name,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,b4d1207d3af32907f4d28ee1be04e1fe3adfc456,Fixes for CER-12-Controllers-number after updates to EVC (#89),False,False
+https://github.com/pangolindex/exchange-contracts,df321a488d8e103f8a6e61ee053e1918e67c3ff1,update RewarderComplex (under development),False,False
+https://github.com/Dinosaur-eggs/core,956a182b2690e66f73a3a515d4aedbd861a79223,lp fix,False,False
+https://github.com/ubiquity/ubiquity-dollar,603b21cdb844632a094bd26cf54b1c56fc79c000,refactor: rename chainLinkPriceFeedLusdUsd to chainLinkPriceFeedLusd,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,ff5ba0ac18bf941c3223e3ef91d5b242dd47ccaa,fix: docs,False,False
+https://github.com/ubiquity/ubiquity-dollar,337fc2c4a616917df7bc79d3ac57cea190e29a09,"feat(migrate metapool): env conflict and test logs
+
+-resolved merge conflict loadEnv.ts
+-changed log messages MigrateMetapool.t.sol to be more descriptive",False,False
+https://github.com/pangolindex/exchange-contracts,64d07fd12945a0a7b5a1bdb3aa68072df7d8b964,fix team allocator,False,False
+https://github.com/ubiquity/ubiquity-dollar,3d97e7c68ce184b2a29ccfb6fb0a8100c38419c5,fix unchecked-transfer issue,True,True
+https://github.com/fei-protocol/tribe-turbo,b947e3314012c7fbbdd15291dd4396ff4923e1bc,🔒 Fix isAuthorizedToImpound,False,False
+https://github.com/ubiquity/ubiquity-dollar,530519d95498245bd29bf31cf490aace42605f6b,"chore: use label addresse, to make it easier to test&debug",False,False
+https://github.com/fei-protocol/tribe-turbo,a15393788b8738666174504a2e8bc646aea4c943,🚧 Turbo Fed,False,False
+https://github.com/ubiquity/ubiquity-dollar,9c5f1bdeeeb70e8c4ed6226f75f3704a6faaf4aa,feat(lusd): update interface,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,27e644a2a0217cecfbd50aa8d83f778f443873c8,fix: forEachAndClear and forEachAndClearWithResult refactoring,False,False
+https://github.com/ensdomains/ethregistrar,28e9de6b8cbb360b20c5e70ecd6b4ea96eb84686,Changes in response to review,False,False
+https://github.com/ubiquity/ubiquity-dollar,cffda89c5448c8aa896b9a0fb24978cd7e830724,docs: add Dollar mint docs,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,0406bf41643d6f1260579e2d3bc4af8312080646,Update Initial Sale contract,False,False
+https://github.com/flashliquidity/flashliquidity-arbiter,fef9815aa6b24521f14580bc9321eb8c79d7b89d,feat: Implement checkErrorHandler for price feed fallback on Data stream failure,False,False
+https://github.com/ubiquity/ubiquity-dollar,23229b5c74cb78a5e9668f10ac4e64d9808d3c14,feat: added test for base uri,False,False
+https://github.com/pangolindex/exchange-contracts,51bc55ba7b2105b0e13caf312e2d68ee1e103341,optimize & test RevenueDistributor,False,False
+https://github.com/ubiquity/ubiquity-dollar,c3bb34a3b1177d1831f177d141ae8e70b80e8544,feat(lusd): add tests,False,False
+https://github.com/Dinosaur-eggs/core,cd13d7de57d7e1f0ccd1c82d0f502713ebd60ae8,add endBlock,False,False
+https://github.com/flashliquidity/flashliquidity-arbiter,31dabfc83cdef86661ddbc302177883c35eb4525,Fix UpkeepsStation: doesUpkeepNeedFunds,False,False
+https://github.com/ubiquity/ubiquity-dollar,5275c55cd137fc1ad5287b5da2c82232c1427b5c,"fix: ""smart contract"" is two words!",False,False
+https://github.com/fei-protocol/tribe-turbo,2de5c894876e3797c0474fbfdea8dcc52306e4b8,🚧 WIP,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,7656ed70b013f1929532cb0022a389dc53d38575,Rename REWARDSFACTORY.sol to RewardsFactory.sol,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,faa0cc141dd0503f227cd4d3041694f587386952,Remove SafeMath from staking contracts,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,c4dccd38406469261d9aeef2ac0500571f1abb79,Fix case when sponsor is head of location,False,False
+https://github.com/pangolindex/exchange-contracts,24cbdcf0c991d524f78e2fa749200ab904dc504d,add convenience function to get tokens of owner,False,False
+https://github.com/ubiquity/ubiquity-dollar,5b44d4880dda7f41e5b2d1b7babc3270fadd612a,"chore: fix deploy scripts
+
+all deploying",False,False
+https://github.com/euler-xyz/ethereum-vault-connector,712f4f1d4d8e1146077687b592a1915768a735e4,chore: set solidity version to ^0.8.19,False,False
+https://github.com/ubiquity/ubiquity-dollar,3206b1f19d7007e75f6f026bf9134a64d60e21fd,test: add tests for DollarMintExcess,False,False
+https://github.com/ubiquity/ubiquity-dollar,79656bd54c968ac89f585219bf967144cc1fe756,refactor: use before() and after() in migrations,False,False
+https://github.com/ubiquity/ubiquity-dollar,8b2c9690f3164db342fb36c8c2d81e473eac504b,"test: verify getCreditReturnedForDollars and (#856)
+
+getCreditNftReturnedForDollars
+
+Resolves: #838",False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,bdc6521fb3750efe22c301a5146d7946ad7891bd,Add immutable and constants state variables keywords,False,False
+https://github.com/ubiquity/ubiquity-dollar,807c3c5c734971a2b312eec2c8b1a4375b1f6a03,test: fix tests,False,False
+https://github.com/hookart/protocol,c876dfcc31b3889663a74e8f67169a2014d28f7e,add existing state checks (#58),False,False
+https://github.com/pangolindex/exchange-contracts,318bc8744ab4d20ecae862ced873c0d3f3904a33,use single line reverts.,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,b352d6532d190c923cdfb750f8cf31cdf584c816,fix: https://github.com/spearbit-audits/euler-vciso-review/pull/1\#pullrequestreview-1705525860,False,False
+https://github.com/ubiquity/ubiquity-dollar,aafc79b8e1f27237c943deb6b79c3c72f2cd797e,feat: test constructor,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,5744dde69cf99132bfaf85b37fed4305a89e3eb0,chore: set to view,False,False
+https://github.com/ubiquity/ubiquity-dollar,ceb92c98281f9b33995b7e0d0d602bd7ad92552f,test: fix test,False,False
+https://github.com/pangolindex/exchange-contracts,f5211a557544595a2f6efff039a902973e65a759,use assembly for efficiency,False,False
+https://github.com/Dinosaur-eggs/core,7cbb34bbdabce2986c7bc6913f71e907f047091e,use wbnb for royalties,False,False
+https://github.com/ubiquity/ubiquity-dollar,5c83715462110311895448779ed33a3e9364ab81,"fix: unneeded overrides
+
+removed unneeded overrides",False,False
+https://github.com/ubiquity/ubiquity-dollar,ebe1b48932433d0368141b2de14cb24551426cf4,chore(diamond): adapt UI,False,False
+https://github.com/ubiquity/ubiquity-dollar,96eb572d3a1f25f0958073aed732c6a78712312f,refactor: remove gov shorthand from role names,False,False
+https://github.com/fei-protocol/tribe-turbo,07e9f2bb59cfad326d63991c9ddf54c1bc06f187,✨ MVP,False,False
+https://github.com/ubiquity/ubiquity-dollar,e83a31472f3f3098040e7ad27c9bfb2623ec239e,fix(name): renaming based on comments,False,False
+https://github.com/ubiquity/ubiquity-dollar,90aad9e734206795b243299eb94bd738a9ae2c6b,feat: decrement storage hash,False,False
+https://github.com/fei-protocol/tribe-turbo,f4f69b822a77a8c16ba1cbbf562c77797f34f2fc,✅ More tests & fixes,False,False
+https://github.com/pangolindex/exchange-contracts,3094b66eef8571bb9ba3872a33e7367f78508106,add Pango Chef (DRAFT),False,False
+https://github.com/euler-xyz/ethereum-vault-connector,d101ee00c7b4a35549ebb2c7042d2461c98a1b7b,allow checkAccountStatus to modify state,False,False
+https://github.com/ubiquity/ubiquity-dollar,f7b5dce9362156092d61ec642aaed02bf6b7c6f5,fix: mock contracts,False,False
+https://github.com/ensdomains/ethregistrar,1201b53ffba3138ac37a6f680e543ad0b8c5c441,Migration contract for .eth registrar,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,69c835a6d897e09bd8deba71d2bbc8f8dda764ea,Add check head of location and regional manager is in referral tree and not the genesis user,False,False
+https://github.com/ubiquity/ubiquity-dollar,acbcb6c73db5f33376a6cc9415065df0ea6355bb,Fix block number checking.,False,False
+https://github.com/ubiquity/ubiquity-dollar,c8b51392945429ad95b02fdc3c3bdc05d60825c1,feat(diamond): rename nft,False,False
+https://github.com/fei-protocol/tribe-turbo,f9790c3ad499fb1270e68a9877e4141b15ffad8f,✨ Sip (claim fees),False,False
+https://github.com/ubiquity/ubiquity-dollar,39962c572c4758b0d1a264da06991015d34a4c21,build: add mainnet migration,False,False
+https://github.com/ubiquity/ubiquity-dollar,e187a79d28c7433ee128112df70f692932219e2e,upgrade solidity version,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,2834114616dafa7f655eea6c7051d40acbf0d470,feat: move the set stamp initialization logic to the library,False,False
+https://github.com/ubiquity/ubiquity-dollar,0ddca52dd0ed4a486643d10ba0e74e75b8b21dc1,Fix error message.,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,da7ce8c8178f23c4d24c3f38f0f0f2d09b9252a8,getExecutionContext rework,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,60635784ebe9e96f6efb42770d47911198ab5097,rename Tiktoken to SmartLP,False,False
+https://github.com/ensdomains/ethregistrar,a42584fb7b7b5425b4a32a362709a4ed6a1ce8fa,Don't do subdomain registrar migration if there is no old subdomain registrar,False,False
+https://github.com/ubiquity/ubiquity-dollar,5c0c65a7ccac9cd829e7b84e2b442466128d754d,build: updating tests,False,False
+https://github.com/Dinosaur-eggs/core,d2d9e6c2ec2966fa807e6cbe03aab9b12534decb,tips fee transfer fix,False,False
+https://github.com/flashliquidity/flashliquidity-arbiter,5b31ec8c6ffde4832ccf28e760d44fe57143e15a,chore: use PremiumReport schema for Chainlink data streams,False,False
+https://github.com/pangolindex/exchange-contracts,ec1838dcb5ca0a8856b6332a746ae2f5dc3f9314,simplify logic,False,False
+https://github.com/ubiquity/ubiquity-dollar,0d6e02287812f0c68cbc6eb5ff56b5fd0690aafb,fix: pr review easy adjustments,False,False
+https://github.com/ubiquity/ubiquity-dollar,1a31f0540b2126da1fcbd1492ae45b2c0ca85a6d,feat: bonding diamond test setup,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,23c570ac3a23027a633cc67e93967b9d813cc41a,Add prevention for multiple updates of regional manager turnover,False,False
+https://github.com/ubiquity/ubiquity-dollar,6e891801df973a6613b43c899381cdd244ad3fdb,fix: fix credit redemption calc,False,False
+https://github.com/flashliquidity/flashliquidity-arbiter,042ab0700ddeeec53d9679e94770190b4896d3ad,chore: remove unnecessary custom errors from BalancerV2Adapter,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,302646b79b6c798949638a05567af3182e9a05b4,fix: audit Open-Zeppelin N-03,False,False
+https://github.com/ubiquity/ubiquity-dollar,29c2ea51786251c88bb475ae92d5e92aace15898,feat: add events,False,False
+https://github.com/ubiquity/ubiquity-dollar,eadf54bb0d787d35390c3009697d35ebe9c43c36,fix: fixed unsafe external link,False,False
+https://github.com/pangolindex/exchange-contracts,eb9745eb4bc0289b870eb45f46fbb8c50c8cb14d,add claimable (replacement for ownable),False,False
+https://github.com/pangolindex/exchange-contracts,a56a13dd73ea97975085c6957f9a592f28ee97fe,move pool check above,False,False
+https://github.com/ubiquity/ubiquity-dollar,60a1e440c56565e0bd7781f623999cdae6b83f18,"Revert ""Change Contract names to reflect Refactor""
+
+This reverts commit a5e8435e1d52b05e1865434a3af10eda796cd38b.",False,False
+https://github.com/pangolindex/exchange-contracts,12bea9a16c3426332d78eecef8ea1755c77bb0dc,Enforce anti-contract for HARVEST_ROLE,False,False
+https://github.com/fei-protocol/tribe-turbo,f7368b61760a84c310b6889147a25366a46998cb,turbo admin + configurer,False,False
+https://github.com/pangolindex/exchange-contracts,6a689a59dd55ed4a1be7f0f9b05df2dc088fbfce,remove unaudited contracts,False,False
+https://github.com/pangolindex/exchange-contracts,d89f121de2e318931c106c0641488c4daaca9a65,remove RewarderSimple,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,77e1aa576f6caeb836fb12781fc3729722d31c20,fix: https://github.com/spearbit-audits/euler-vciso-review/pull/2\#pullrequestreview-1709859782,False,False
+https://github.com/ubiquity/ubiquity-dollar,a9cd4a635e0c9286d306dc5bdd629f018532b277,feat: add fractional redeem collection,False,False
+https://github.com/fei-protocol/tribe-turbo,878864a4e7d17070e99c22233a8c582c5afab2fd,comments,False,False
+https://github.com/ensdomains/ethregistrar,e70589ce4837bc1bdedb30af93cd7bacea3006ee,Add an owner to the ShortNameAuctionController and let it set the opensea address,False,False
+https://github.com/ubiquity/ubiquity-dollar,10ee07b56dce468eb32cbd52ef65c271ca0f3786,refactor: rename IDebtRedemption to ICreditNFTManager,False,False
+https://github.com/pangolindex/exchange-contracts,d36e954fa06ad9885e76a6ebd41d3ed742f381c6,try withdrawing with low-level call in emergency exit,False,False
+https://github.com/pangolindex/exchange-contracts,9aacb85d0f4df103c4044766d24bbb8106b4de4e,Audit Final v2,False,False
+https://github.com/pangolindex/exchange-contracts,43c6e510b0f32b1cf656c4c95c1302126d47ebb2,fix possible reentrancy exploit,True,True
+https://github.com/pangolindex/exchange-contracts,b033f73def1fa550a7473c97771abb7e4db58f8c,use Ownable for RevenueDistributor,False,False
+https://github.com/fei-protocol/tribe-turbo,b273cecb57de7b7f4cf39693299d175d95d26e2d,Update src/interfaces/Comptroller.sol,False,False
+https://github.com/ubiquity/ubiquity-dollar,d5a0f8716b7bd082045116e77dc4ab4fb805560a,fix: env variable names,False,False
+https://github.com/pangolindex/exchange-contracts,dfaadf652f3a947254d44b05b4ad28e36febf51c,fix overflow bug,True,True
+https://github.com/pangolindex/exchange-contracts,831b5f941f0aa5c7cf7f4c3961bc683c40151f0d,move tokenURI construction to a separate contract,False,False
+https://github.com/Dinosaur-eggs/core,63e0640be2a3970938e94bd7cf078149fc475388,Distribute all balances by default,False,False
+https://github.com/ubiquity/ubiquity-dollar,6ec6605feaea30c11b96ba65e64559c602561949,Update LibAppStorage.sol,False,False
+https://github.com/pangolindex/exchange-contracts,fe265657030dc56ea867df733d230de7d1a53dbb,fix spelling,False,False
+https://github.com/ubiquity/ubiquity-dollar,1080ba134bba49e0d74cf03fdb934da5dc442eac,test: remove LP.t.sol,False,False
+https://github.com/ubiquity/ubiquity-dollar,8b39561bdf8dbb08c0ea634e6e797bc1756f69da,remove duplication,False,False
+https://github.com/ubiquity/ubiquity-dollar,18f62122842e44e5146b110a5fc2cef0ec824cb5,fix: fixed the error causing by its conflict with openzeppelin-contracts's ERC721.sol,False,False
+https://github.com/Dinosaur-eggs/core,db1136ddd367cb66af0cbefbe5e6050b53f1d982,up,False,False
+https://github.com/pangolindex/exchange-contracts,b526bf03bb8ca66601ba76644e233939295ddc7b,use custom erc721 + remove reserves,False,False
+https://github.com/ubiquity/ubiquity-dollar,498c07dcb9810eb806f079a170b09a5d4b2f5563,Make manager private immutable,False,False
+https://github.com/ubiquity/ubiquity-dollar,236af92ddb1f0d8ad90924dfa1594e18a50792f7,fix: resolve conflicts,False,False
+https://github.com/Dinosaur-eggs/core,6d692cce35e170349e63e62bca072f1f06f075d6,burn bug fix,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,8bb2437da4c328a085c4de1b1efea8ecc6d73bb8,Fix requires,False,False
+https://github.com/pangolindex/exchange-contracts,9cf26df778ea1101782814debf0f76df67891f06,update allocation vester contract,False,False
+https://github.com/ubiquity/ubiquity-dollar,056a717bead25f493ad4563498c7f8dad21c70f1,"chore: setting `burnFrom` virtual, each contract should implement it",False,False
+https://github.com/fei-protocol/tribe-turbo,57c5a45eb2fc2c277c794c1fd44fea98813c9cf8,feat: framework,False,False
+https://github.com/ubiquity/ubiquity-dollar,c3a1eb75a3a99c8a153dbb31f919c7611ccfd2f7,"Revert ""Revert ""Change Contract names to reflect Refactor""""
+
+This reverts commit 5d4813f9bca77aa2e9c8a078eb63dc7b63840c2c.",False,False
+https://github.com/ubiquity/ubiquity-dollar,1b67bede6607ac53ec500dc8450f67a4a75fd2a6,missing tests,False,False
+https://github.com/ubiquity/ubiquity-dollar,6d1f8248a7115b11e9d97f228ac17100ac41708d,feat: version upgrade,False,False
+https://github.com/flashliquidity/flashliquidity-arbiter,f987f056b310a50cf372f55276a1fb0e8714f95c,chore: rename NewDexAdapter event to DexAdapterAdded,False,False
+https://github.com/fei-protocol/tribe-turbo,103779572fd24c56a87dac00f72eb974d8d0f4ef,🐛 Slurp after accounting in boost,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,0f34fcbf6d2b07b996404a346110f4b7f1bb2b65,fix: cantina 102,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,3686aea9ada405b85833febf103c65c622499e27,feat: add _msgSenderOnlyEVCAccount,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,48effceed51d79f056f609ef49f36a40108e2ac0,"Add balance check on remove liquidity, update claim rewards NBU calculations",False,False
+https://github.com/pangolindex/exchange-contracts,31ee945cb549ab38138020f55156267dd0e47d71,Proposed v2,False,False
+https://github.com/ubiquity/ubiquity-dollar,4f0ac41db7b4435e0bbc59f0d242b23f22841c01,fix: parameter list,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,20c441323211256ab35d896991dc82c18abcbfc5,removed unnecessary unchecked blocks,False,False
+https://github.com/ubiquity/ubiquity-dollar,54fa9bec81b9bc8b36240489e053ff3a21610dee,refactor: remove token symbols in CreditNFTManager,False,False
+https://github.com/ubiquity/ubiquity-dollar,fafeb6f64258827ff70e326bed607acb530dbde7,Remove unnecessary files,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,ed1ed54c1dee87153bae17c55a0ea2244b7fe3ce,Implement auditor fixes,False,False
+https://github.com/ubiquity/ubiquity-dollar,77f8dcd8b0efc0947845642a485859ae7230adfd,Refactors,False,False
+https://github.com/ubiquity/ubiquity-dollar,69fd90b32a22d7d052b9bf14f6eecc1cb746d36b,fix(deploy): fix build,False,False
+https://github.com/ubiquity/ubiquity-dollar,13d0ff7374f9260cd622129520e49d01667c3b6c,fix: unit test and logging option,False,False
+https://github.com/pangolindex/exchange-contracts,5048b0967966abad357071365688b021c0846c0e,add voting,False,False
+https://github.com/hookart/protocol,d5fdfd7f63a5d40f3f7978c3fb0f7943b2a29219,dev -> live,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,592b8ad714caa46ce22ee6bcab667bffc2994f16,UPDATE | Smartcontract,False,False
+https://github.com/fei-protocol/tribe-turbo,65201bdafdc68598ee0ea58403e5a918413721ab,slurpAndLess,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,afdb1f675feeb82186d29c255cf2206bfaec3a3b,"fix: https://github.com/spearbit-audits/euler-vciso-review/pull/1\#pullrequestreview-1708604469, slight reorg",False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,0dc59312e431c0dd537f785913cbcc58180167a4,refacor code,False,False
+https://github.com/ubiquity/ubiquity-dollar,4f62623f74f4ce5928b6f0716de1951f88b4b878,fix: slither errors,False,False
+https://github.com/ubiquity/ubiquity-dollar,b95af7aafc3ac5030a144617532553f5c8ff83b3,Test constructor.,False,False
+https://github.com/ubiquity/ubiquity-dollar,3a0ce1df66461280e7845af4f4a2b73987b9b915,feat: metapool migration script,False,False
+https://github.com/flashliquidity/flashliquidity-arbiter,ed6e46858756464a40760d2b5ba35cbb8fef13a8,feat: add amountOut return value to adapters swap function,False,False
+https://github.com/pangolindex/exchange-contracts,4fb63a2084b6c4b35b07cd7190b0035b4ad8694b,Avoid modifying slippage,False,False
+https://github.com/pangolindex/exchange-contracts,1076d4c03d181f25d70d1dc4f21f2a9ff6e1d644,move _earned function below,False,False
+https://github.com/ubiquity/ubiquity-dollar,7ca60e3979809b1e642824354f708281efa62439,Initialize all state variables in constructor.,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,16c174597ab3195495dd4bcc76e1ce665ae52572,feat: EVCUtil add _haveCommonOwner and _getAddressPrefix functions,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,6e57eafcdc7b9a08ccb0369bf135a69ce4680be5,Add BSC contracts,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,13f51292cb094f09b503ac7583198c2b89aa2473,increase number of elements in sets,False,False
+https://github.com/pangolindex/exchange-contracts,c5dd80f8efef048ec9606dd8af2607b86341e915,update team alloc vester,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,8d63da179a698be7480bb0b0b9aa6ca81f0d63b0,example vault optimization,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,e7aec901ea26b1fdd1d6c4237b74d69c06318c09,"removed operator installation through permits, added ability to execute arbitrary signed payload on behalf of the user",False,False
+https://github.com/pangolindex/exchange-contracts,b805a8af03cbeb875c028ceaa80ccca0f2f5addf,Handle reflexive tokens via recoverLP(),False,False
+https://github.com/ubiquity/ubiquity-dollar,e8d1d6f54d1a3487d407b1dd517a68072b34426e,feat: style changes,False,False
+https://github.com/hookart/protocol,800556e48d166fc6be921e88f3b0e7b9b504e4a4,"Resolve L-03 (#60)
+
+* Resolve L-03
+
+* limit upgrader role
+
+* Fix tests
+
+Co-authored-by: Regynald Augustin <github@regynald.com>",False,False
+https://github.com/ubiquity/ubiquity-dollar,a48a49633d5f7f7d49987491c322be29b95f28e1,Fix UbiquityDollarManager setup.,False,False
+https://github.com/ubiquity/ubiquity-dollar,d80056425d31fff873c761a6a9cb1672c1352912,feat: updated tests,False,False
+https://github.com/ubiquity/ubiquity-dollar,412458b6720af26fad649a14c6f880e9cb844224,feat: bonding curve draft,False,False
+https://github.com/ubiquity/ubiquity-dollar,ce9e3ad76209f211cb3de5abfb918d5cb07638aa,finalize,False,False
+https://github.com/ubiquity/ubiquity-dollar,8dad4ae1ada28fc616f95a1df7d3ef4ad65a2769,build: adding tests,False,False
+https://github.com/Dinosaur-eggs/core,22fbc2a66b91ad74f760cb22f4a8aaac2756da7c,up,False,False
+https://github.com/ubiquity/ubiquity-dollar,8b3bfb15b8e465bcf313b668b0ead7c451e9e97b,feat: add fractional redeems,False,False
+https://github.com/pangolindex/exchange-contracts,c580d588bef6c8b8daf4bc638aa6963edc23f23f,update readme,False,False
+https://github.com/ubiquity/ubiquity-dollar,96a88b0f2054cc585493c82356a831c0ac637671,Improve doxygen.,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,45e378f15ce72881dd370a119b1b46a86c3257e4,Update Contracts,False,False
+https://github.com/ubiquity/ubiquity-dollar,a5e8435e1d52b05e1865434a3af10eda796cd38b,Change Contract names to reflect Refactor,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,51f7b814075d25e230d8b2fe0f94158e84d08e4a,Update vesting type,False,False
+https://github.com/ubiquity/ubiquity-dollar,11fa659e04eea64202e54e72d0e6f3533ed54b96,feat(diamond): remove duplicate,False,False
+https://github.com/ubiquity/ubiquity-dollar,986b3a1c758abebe561e1fed24ce711fe71466d6,feat: devlopment deploy twap fix,False,False
+https://github.com/pangolindex/exchange-contracts,0aad56356031122f358358b9f84de2f52ee97cd4,"two important fixes
+
+- ensure totalWeight can never be 0
+- ensure rewards are not wasted when staking first time",False,False
+https://github.com/ubiquity/ubiquity-dollar,478e4df89fe9082e0a106c6e874fc01e5b910be5,test: add testRedeemDollar_FuzzRedemptionDelayBlocks,False,False
+https://github.com/ubiquity/ubiquity-dollar,9814b5027cbaf5e3cc262ecf006f3d3b643c68bd,test: upgrade to facet,False,False
+https://github.com/ubiquity/ubiquity-dollar,2fb7eb15e4b33c33dffaaeb8108f7ae5cf181275,upgrade solidity version,False,False
+https://github.com/hamdiallam/Solidity-RLP,a4f9d7c2a69edebc85126d9743c1b0ed6980b9d8,address strictly 20 bytes. uints capped at 32 byte length,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,5ba0bc1e63e5d02c8955ee5dd5b5c8e47987e615,feat: store last account status check timestamp,False,False
+https://github.com/ensdomains/ethregistrar,1cd687b103df135d60fa81d96579fe477c747cbf,Use xor and make constants private,False,False
+https://github.com/ubiquity/ubiquity-dollar,e445b85359d7a9363f2105a565e812aedcb8d384,refactor: remove MockIncentive,False,False
+https://github.com/ubiquity/ubiquity-dollar,a54d8041903ee323d428198c9a1eb55021185abc,feat: solidity scripting devlopment deploy,False,False
+https://github.com/fei-protocol/tribe-turbo,b15f9b90d2e8f5fc93a5de5b516e65248e8ae6b5,mainnet deploy,False,False
+https://github.com/Dinosaur-eggs/core,cdc8ca74871ad47ff312091c9298098f39aaffef,lp fix,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,3c779377ef1f228d1d9b2912b2a00087e5d42546,improve the mechanism of ignoring account status checks,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,215cf5e638dd6e2e96fb2f17b38d07c6bccc147e,rename CVP to CVC,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,25585ae00f32911b62dda393e1c9021ee8f06d9f,fix: typo,False,False
+https://github.com/ubiquity/ubiquity-dollar,279dfa04883b7a417488f1d31d260f142377fd47,refactor(DiamondTestSetup): rename IOwnershipFacet to ownershipFacet,False,False
+https://github.com/fei-protocol/tribe-turbo,4050e384a8ab8b603dfaece79b6a3d13ed68e6ff,✨ Custodians,False,False
+https://github.com/ubiquity/ubiquity-dollar,70ba9760f97b4f1738ae4eed441f288ac6e51ef8,feat(lusd): add test,False,False
+https://github.com/pangolindex/exchange-contracts,4574883de983b96957344436d5d194fb565b6588,disable emergency exit when there is no balance,False,False
+https://github.com/Dinosaur-eggs/core,42403c2b419dcf25d0904c6f5d1d99e90c52bc14,add batchAnySwapAll,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,27b30f55af22ccfbeb09d3b4f9f315305c6394c1,Delete NbuTokenExchanger.sol,False,False
+https://github.com/fei-protocol/tribe-turbo,a14cf9ca2abea2377cdc06860c8d0d9aca61f734,💥 Don't call slurp in boost/less,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,6e090b6bd26b8dcb8ad13c48b875f7dd979fb7e9,tests improvement,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,7f51d0cb5a3a813488ffaf9c5e99e82933bf0623,fix: yAudit audit G2,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,f1e8132d34e28817737c763d96ce17b2dedc9c85,feat(certora): add rule for nonReentrantChecks modified functions,False,False
+https://github.com/ubiquity/ubiquity-dollar,d31f21eddb2ebf42631471fd5b9fca6d2a698220,gas optimization MCV2,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,49a2d8f57cf1f5d41f1ed5515dc2383a63415dae,UPDATE | NUS contract,False,False
+https://github.com/ubiquity/ubiquity-dollar,a7a1c37f13c75ccd697aed0cc7a07bd50977d08a,feat: tests for single tokens,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,eb66d0bf82d41a546da8ab98d16da3bbe1eea7a7,store an account owner on initial interaction of the account,False,False
+https://github.com/fei-protocol/tribe-turbo,08eb08b4283491914f9c2c4478c4dfc664332551,✨ New data for boosted against collateral,False,False
+https://github.com/ubiquity/ubiquity-dollar,760044fb99310c8a5b5d2e0d4defe166dbaf861a,test: fix tests,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,066566a547884415e0ba2a90ed105627e511f5ed,fix: audit Omniscia EVR-08M,False,False
+https://github.com/ubiquity/ubiquity-dollar,06dc9f8ab3cdfbd6960d6b61f1695aafe290f6aa,complilation errors,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,c88553710f9b7bfa0396c7385e2556da09d2b0b8,Eliminate dead and obsolete code (#118),False,False
+https://github.com/ubiquity/ubiquity-dollar,c7cddc14c1e252e39b453ecde3084fa4204d1c48,Create ERC1155Ubiquity.t.sol,False,False
+https://github.com/pangolindex/exchange-contracts,3c9bed6160b0d58eb4019d6894c22bd55c0f06a2,"user rewarder hook on emergency exit.
+
+use low level call to prevent DOS",True,False
+https://github.com/ubiquity/ubiquity-dollar,29300d86a45d2ff71b12154a36634a320a0aaa92,finalize,False,False
+https://github.com/ubiquity/ubiquity-dollar,6f2715ddc80946620eed4ca70ba85709f42518cf,fix: incorrect use of setStakingFormulas,False,False
+https://github.com/pangolindex/exchange-contracts,c4c4c335cf7b5d1973fc1bb188886478e5aaadaf,change event to emit for all alloc changes,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,83c5bb91cdaa28cbd41fb2b24795a8dacefa69ee,feat: add _msgSenderOnlyEVCAccountOwner,False,False
+https://github.com/hookart/protocol,e4671ac227be74a703f535604fb69b52332a8890,"set default minBidIncrement to 50 bps (#49)
+
+* set default minBidIncrement to 50 bps
+
+* update tests",False,False
+https://github.com/euler-xyz/ethereum-vault-connector,52c2312ece461ffed8a350a4690a3fb98a8e39f6,test: make robust,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,f72f2f841c67c9edc02568db7b059a450266325b,Fix divide on zero in case there is no vestingSecondPeriod,False,False
+https://github.com/ubiquity/ubiquity-dollar,d35e0281e19195b38755365afbba2e2bbf9b257e,comment test_TotalLp,False,False
+https://github.com/ubiquity/ubiquity-dollar,f5e25a516674f1e19b8c20c274de6b6e50be838b,Fix path resolve issue and add a test,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,4701366ff0860a983dd94ec2f609702f7ef1701b,fix typo,False,False
+https://github.com/ubiquity/ubiquity-dollar,d13f350123e3230715ef8272c0f66b888be197b9,"refactor: update packages/contracts/src/dollar/interfaces/ICreditNftManager.sol
+
+Co-authored-by: アレクサンダー.eth <4975670+pavlovcik@users.noreply.github.com>",False,False
+https://github.com/pangolindex/exchange-contracts,386b5d3666bc0b5b73519185787b74da766efbd1,remove unnecessary statement,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,684c2e83eee5bdfedeb6c6ecd6dd87b3201d4d16,fix: docs,False,False
+https://github.com/fei-protocol/tribe-turbo,0e01e6a4b8249ba338619e65002804075d3736bc,Update src/TurboMaster.sol,False,False
+https://github.com/ubiquity/ubiquity-dollar,1c4e93d50856a45c3e8ee70445f37bbbc24b161b,chore(diamond): remove old tokens and ForDiamond add diamond getter and setter to tokens with tests,False,False
+https://github.com/Dinosaur-eggs/core,ab0f13ee08811b0b7724cb8eb6b5a718ba6372d5,auto withdraw bnb,False,False
+https://github.com/flashliquidity/flashliquidity-arbiter,5eec109ae5b6701aa321c16fde6d32bd0d123664,refactor: Update flashLiquidityCall callback to directly perform profit validation/transfer for better gas efficiency,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,60c593c645cad6371675696d25d106229e5ea851,fix: https://github.com/spearbit-audits/euler-vciso-review/pull/1\#pullrequestreview-1709973648,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,1eb2ea11c9f149229041eeb322c4753d5ed98fcf,fix: rename function,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,ca1a7582cdc1e86e2d481ed936475044fdbdc8c9,chore: use forge fmt instead of prettier,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,ed54a559d1ed4f4982849981a928c18c7661205c,fix(certora): comment assert statement in accountContext modifier,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,66771cdda7963bc5b14e57d7806e3c3fa3078930,"context extended with information whether it's controller calling into a collateral, conditional require account status checks",False,False
+https://github.com/ubiquity/ubiquity-dollar,5bc784c43d7ff07d0d4cccc5d3d947fadb1a546c,"test: add diamond cut initializer tests
+
+Both added tests verify that revert happens when facet initializer function reverts,
+with and without error message.
+
+Resolves: #838",False,False
+https://github.com/ubiquity/ubiquity-dollar,44c9de7c341719274c6f1cf764d1dbb87aa0eaa5,"refactor: update packages/contracts/src/dollar/core/CreditNft.sol
+
+Co-authored-by: アレクサンダー.eth <4975670+pavlovcik@users.noreply.github.com>",False,False
+https://github.com/ubiquity/ubiquity-dollar,73a20d1caa65561cc2de02cc215b71467d7f23d7,docs: add Dollar mint excess docs,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,e46a6e5c863d5ccf61b572ff5ce16a83668f9b0a,add fix for lend,False,False
+https://github.com/pangolindex/exchange-contracts,d1c2fd10e19f407d9e3d6f5aae78870ff7a24bcd,add no zero address check when setting beneficiary,True,False
+https://github.com/pangolindex/exchange-contracts,ebfa3b24d6106952884315574dee842381c9d559,add zap router with tests,False,False
+https://github.com/ubiquity/ubiquity-dollar,cbfcd4b6fd3bc9092ccb8e87f832c7e9825d4c1d,refactor: remove token symbols in UbiquityCreditToken,False,False
+https://github.com/euler-xyz/ethereum-vault-connector,0682dc0075a3e9b18fd01e536235fe90fc8f9c93,prettier run,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,b59e1f98afb3cac9e7dee967101ec0bf7ad75975,Fix typo,False,False
+https://github.com/ubiquity/ubiquity-dollar,edf5f533467baa5ab7defe2b4b5180fa47724cdb,refactor(DiamondTestSetup): rename IAccessControl to accessControlFacet,False,False
+https://github.com/ubiquity/ubiquity-dollar,c3bad1683d692c25fc1e83ab0b077617c656869a,feat: added mock function,False,False
+https://github.com/ubiquity/ubiquity-dollar,abbb58606310f92893beacc02cc694bed25e3398,test: upgrade to facet,False,False
+https://github.com/pangolindex/exchange-contracts,062715c3d04e8d0302c5df6ed28ae62c0eabbcdc,rename JointTreasury to RevenueDistributor,False,False
+https://github.com/pangolindex/exchange-contracts,21362b6f6677ec2aaf6125bc43e4cb2a15f323cf,use storage for struct,False,False
+https://github.com/fei-protocol/tribe-turbo,5653d70bfb7d59473fa29827b333480b1af36022,♻️ Cleanup,False,False
+https://github.com/ubiquity/ubiquity-dollar,cf42488d080316c79c4e2ba49c51da6f30793f59,feat: version upgrade,False,False
+https://github.com/pangolindex/exchange-contracts,03283aa3caa2da67ed12f60472ff5e641753edee,add fee collector,False,False
+https://github.com/pangolindex/exchange-contracts,b93835964052cb656ea632f3aad8756ae6b7a133,"Added Hardhat
+
+Added hardhat files to help deploy and test.",False,False
+https://github.com/euler-xyz/ethereum-vault-connector,37bc56dad35073ffda445b7aaa1efc4abe5483a6,"fix: formatting, fuzzing",False,False
+https://github.com/pangolindex/exchange-contracts,aafdb2a160fd77ec9b643dc624639e05c8b91a5c,Store protocol fees in router,False,False
+https://github.com/ubiquity/ubiquity-dollar,3131ac49e2dbc730f6ae861e7102f8a8f34ef3a0,"refactor: update packages/contracts/src/dollar/core/CreditNft.sol
+
+Co-authored-by: アレクサンダー.eth <4975670+pavlovcik@users.noreply.github.com>",False,False
+https://github.com/euler-xyz/ethereum-vault-connector,24f62816b79df83522cc2ce30b43a4b5b062343a,introduce a custom error for account owner not registered,False,False
+https://github.com/ubiquity/ubiquity-dollar,f0f94f6eb41b0f133c48ef49870c22eb7401948b,refactor(UUPSTestHelper): move access control settings to DiamondTestSetup,False,False
+https://github.com/ubiquity/ubiquity-dollar,53b8e1a2e31dbe971e732f12521f47a58b455ffc,feat: refac AMO minter to handle only collateral,False,False
+https://github.com/nimbusplatformorg/nim-smartcontract,d738028197664d665f3d35e59aef136659867307,Fix error message,False,False
+https://github.com/Dinosaur-eggs/core,f9bdc0e688da5904929ab1c93218a709329e7b8c,Value adjustment,False,False
