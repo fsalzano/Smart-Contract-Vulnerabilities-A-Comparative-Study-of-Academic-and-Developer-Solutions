@@ -1,0 +1,25 @@
+commit_message,fixing_commit_message,fixing_commit_hash,later_commit_hash,repo_url,fixing_commit_tag,later_commit_tag,is_preserved,is_in_literature_guideline,is_new_employable_fix
+Added a comment to constructor to remind of security parameter values,Fix slither warnings for reentrancy,7f904ac5fe743711cfaf8461b8a867f001161434,3f51feb268eb6e753e7c72ecb8cf678fcde88aee,https://github.com/argentlabs/argent-contracts,reentrancy,not_relevant,Yes,False,True
+"pay prev submitters some of challengers winnings
+
+we want the submitter/challenger winnings to be non-zero-sum if challenger wins to avoid DOS vulnerabilities. So pay out 0.7eth to prev submitters, 0.3 remains in the contract (effectively unusable) and 2 eth to challenger instead of 3.","fix DOS attack vector for challenging same SB over and over
+
+avoid subsequent challenges by checking if a SB has been defended, to not have to have submitter defend it again.",13d1f97482905c23c62916b5dca289c156cce122,ca5963fb97b266ee79dc890ee5ad71b9e69bf4e5,https://github.com/syscoin/sysethereum-contracts,dos,,Yes,False,True
+sec: implement security enhancements (#251),fix potential integer underflow in RelayerHub,8232f4245e6b0e2a3d13b644d599dad9d1d64a07,5134a57191da8350278ee154c4814659c89d8f9f,https://github.com/bnb-chain/bsc-genesis-contract,arithmetic,,Yes,True,False
+"docs: change license to ""Unlicense""
+
+docs: move caveat emptor under ""security"" section in README
+docs: explain pre-requisites better in ""contributing"" section in README
+docs: remove commands from ""contributing"" section in README","perf: use ""mulDiv"" in ""pow"" for overflow-safe inner multiplications
+
+docs: add note about maximum value permitted in ""sqrt"" function natspec
+refactor: swap ""expected"" with ""result"" order in test files
+refactor: use uint256 in ""pow"" function
+test: fix broken sqrt max 59x18 test cases
+test: pow function",94f21e64dac21207be448677598cc8bc0f9df6a6,fb2be67df289b9c31b29a6c22c9967cb2ea89a83,https://github.com/PaulRBerg/prb-math,arithmetic,,Yes,True,False
+Security optimization,Potential reentrancy fix,f642a15f54e1e2c6e785eaaf826f1cbc585e2c2d,2e841843e1a4f80b87db2c18aa5605ac5ab0cce7,https://github.com/Dinosaur-eggs/core,reentrancy,,Yes,True,False
+Security optimization,Potential reentrancy fix,f642a15f54e1e2c6e785eaaf826f1cbc585e2c2d,2e841843e1a4f80b87db2c18aa5605ac5ab0cce7,https://github.com/Dinosaur-eggs/core,reentrancy,,Yes,True,False
+fix(blockchain): fix dos vulnerability,fix(blockchain): fix reentrancy vulnerabilities,a7f995db04a45b727cfa31922b55b0d5fdcc766b,abf416e98fa389cffd4fc76cab01cb3e0033612d,https://github.com/trenddapp/lottery,reentrancy,,Yes,True,False
+fix an security issue where dex address can be manipulated and hence amountOut can be too,fix a security issue where caller can adulterate 'to' address in swap calldata to steal accumulated fees in contract,4d7f4873b0c71c6aed840f02e59d8ee43cd46ed2,9ff799fb5f5987fa0751d8e73fee3ed59acf7c73,https://github.com/chainhop-dex/chainhop-contracts,access control,,Yes,True,False
+feat: fix index vulnerability in refunds,fix: overflowing deposit,ea9a72eb7b2b65af9d741ca00c3d51a13367821c,3bc8cbeef7280f3d6c721ba5e75526a2fd668167,https://github.com/superform-xyz/superform-core,arithmetic,,Yes,True,False
+feat: fix index vulnerability in refunds,fix: lowlevel call address 0 validation,37a024a0a6090dcf308c3eebafe118ab16b5985c,3bc8cbeef7280f3d6c721ba5e75526a2fd668167,https://github.com/superform-xyz/superform-core,access control,,No,True,False
