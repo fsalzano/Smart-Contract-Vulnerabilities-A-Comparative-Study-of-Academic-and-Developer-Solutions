@@ -1,0 +1,90 @@
+Achecker: Statically detecting smart contract access control vulnerabilities
+Achecker: Statically detecting smart contract access control vulnerabilities. In 2023 IEEE/ACM 45th International Conference on Software Engineering …
+HuntFlow: Search the Arithmetic Vulnerability in Ethereum Smart Contract
+A novel smart contract reentrancy vulnerability detection model based on BiGAS
+Unity is strength: enhancing precision in reentrancy vulnerability detection of smart contract analysis tools
+Smart contract vulnerability detection model based on siamese network (SCVSN): A case study of reentrancy vulnerability
+Security Analysis of Blockchain Smart Contract: Taking Reentrancy Vulnerability as an Example
+Smart Contract Reentrancy Vulnerability Detection Method Based on Deep Learning Hybrid Model
+Reentrancy vulnerability detection of smart contract based on bidirectional sequential neural network with hierarchical attention mechanism
+Smart Contract Reentrancy Vulnerability Detection Based on CNN and LSTM-Attention
+Formal analysis of reentrancy vulnerabilities in smart contract based on CPN
+Cross-contract static analysis for detecting practical reentrancy vulnerabilities in smart contracts
+An efficient detection model for smart contract reentrancy vulnerabilities
+Clairvoyance: Cross-contract static analysis for detecting practical reentrancy vulnerabilities in smart contracts
+NEO Smart Contract Vulnerabilities: DoS Vulnerability
+Large Language Models for Synthetic Dataset Generation: A Case Study on Ethereum Smart Contract DoS Vulnerabilities
+NEO Smart Contract Vulnerabilities: DoS Vulnerability
+Acfix: Guiding llms with mined common rbac practices for context-aware repair of access control vulnerabilities in smart contracts
+An improved gas efficient library for securing IoT smart contracts against arithmetic vulnerabilities
+Reentrancy vulnerability identification in ethereum smart contracts
+Redetect: Reentrancy vulnerability detection in smart contracts with high accuracy
+EvoFuzzer: An Evolutionary Fuzzer for Detecting Reentrancy Vulnerability in Smart Contracts
+Detecting Reentrancy Vulnerability in Smart Contracts using Graph Convolution Networks
+ReenSAT: Reentrancy Vulnerability Detection in Smart Contracts Using Semantic-Enhanced SAT Evaluation
+SCRUBD: Smart Contracts Reentrancy and Unhandled Exceptions Vulnerability Dataset
+An evaluation of the reentrancy vulnerability on GoQuorum-based smart contracts
+An Attention-based Wide and Deep Neural Network for Reentrancy Vulnerability Detection in smart contracts
+Exploiting Bytecode Analysis for Reentrancy Vulnerability Detection in Ethereum Smart Contracts
+Contextual Language Model and Transfer Learning for Reentrancy Vulnerability Detection in Smart Contracts
+Redefender: detecting reentrancy vulnerabilities in smart contracts automatically
+Efficiently detecting reentrancy vulnerabilities in complex smart contracts
+Cross-contract static analysis for detecting practical reentrancy vulnerabilities in smart contracts
+Redefender: A tool for detecting reentrancy vulnerabilities in smart contracts effectively
+Clairvoyance: Cross-contract static analysis for detecting practical reentrancy vulnerabilities in smart contracts
+A bytecode‐based integrated detection and repair method for reentrancy vulnerabilities in smart contracts
+Advscanner: Generating adversarial smart contracts to exploit reentrancy vulnerabilities using llm and static analysis
+An Approach to Detecting Reentrancy Vulnerabilities in Interacting Smart Contracts Using Model Checking
+Clairvoyance: Cross-contract static analysis for detecting practical reentrancy vulnerabilities in smart contracts. In 2020 IEEE/ACM 42nd International …
+Cross-Contract Static Analysis for Detecting Practical Reentrancy Vulnerabilities in Smart Contracts. In 2020 35rd IEEE
+DoSChecker: An Efficient and Dedicated Tool for Detecting DoS Vulnerability in Smart Contracts
+Security Analysis Methods for Detection and Repair of DoS Vulnerabilities in Smart Contracts
+Smartscan: an approach to detect denial of service vulnerability in ethereum smart contracts
+Smart scan: An approach to detect denial of service vulnerability in ethereum smart contracts
+Smartscan: an approach to detect denial of service vulnerability in ethereum smart contracts. In 2021 IEEE/ACM 4th International Workshop on Emerging …
+SmartScan: an approach to detect denial of service vulnerability in Ethereum smart contracts. May 2021
+Combatting front-running in smart contracts: Attack mining, benchmark construction and vulnerability detector evaluation
+Nyx: Detecting exploitable front-running vulnerabilities in smart contracts
+Analysis of Front-Running Vulnerabilities in Solidity Smart Contracts
+Identifying smart contract security issues in code snippets from stack overflow
+Smart contract development in practice: Trends, issues, and discussions on stack overflow
+Identifying smart contract security issues in code snippets from stack overflow
+Smart contract development in practice: Trends, issues, and discussions on stack overflow
+Overapproximation of non-linear integer arithmetic for smart contract verification
+HuntFlow: Search the Arithmetic Vulnerability in Ethereum Smart Contract
+Smart Contract (in) Security—Bad Arithmetic
+Overapproximation of non-linear integer arithmetic for smart contract verification
+HuntFlow: Search the Arithmetic Vulnerability in Ethereum Smart Contract
+Smart Contract (in) Security—Bad Arithmetic
+Mutation testing for integer overflow in ethereum smart contracts
+Static analysis of integer overflow of smart contracts in ethereum
+An Empirical Study of Integer Overflow Detection and False Positive Analysis in Smart Contracts
+A Generative Adversarial Networks-Based Integer Overflow Detection Model for Smart Contracts
+Static analysis of integer overflow of smart contracts in ethereum. Proceedings of the 2020 4th International Conference on Cryptography, Security and …
+Mutation testing for integer overflow in ethereum smart contracts
+Static analysis of integer overflow of smart contracts in ethereum
+An Empirical Study of Integer Overflow Detection and False Positive Analysis in Smart Contracts
+A Generative Adversarial Networks-Based Integer Overflow Detection Model for Smart Contracts
+Static analysis of integer overflow of smart contracts in ethereum. Proceedings of the 2020 4th International Conference on Cryptography, Security and …
+An improved gas efficient library for securing IoT smart contracts against arithmetic vulnerabilities
+An improved gas efficient library for securing IoT smart contracts against arithmetic vulnerabilities
+A large‐scale empirical study of low‐level function use in Ethereum smart contracts and automated replacement
+When they go low: Automated replacement of low-level functions in ethereum smart contracts
+Finding unchecked low-level calls with zero false positives and negatives in Ethereum smart contracts
+Low-level Comments auto-generation for Solidity Smart Contracts
+Paving the Bumpy Road to Achieving Fair High-performance Code Execution in Smart-contracts Using Low-level Metrics
+A large‐scale empirical study of low‐level function use in Ethereum smart contracts and automated replacement
+When they go low: Automated replacement of low-level functions in ethereum smart contracts
+Finding unchecked low-level calls with zero false positives and negatives in Ethereum smart contracts
+Low-level Comments auto-generation for Solidity Smart Contracts
+Paving the Bumpy Road to Achieving Fair High-performance Code Execution in Smart-contracts Using Low-level Metrics
+A large‐scale empirical study of low‐level function use in Ethereum smart contracts and automated replacement
+When they go low: Automated replacement of low-level functions in ethereum smart contracts
+Finding unchecked low-level calls with zero false positives and negatives in Ethereum smart contracts
+Low-level Comments auto-generation for Solidity Smart Contracts
+Paving the Bumpy Road to Achieving Fair High-performance Code Execution in Smart-contracts Using Low-level Metrics
+A large‐scale empirical study of low‐level function use in Ethereum smart contracts and automated replacement
+When they go low: Automated replacement of low-level functions in ethereum smart contracts
+Finding unchecked low-level calls with zero false positives and negatives in Ethereum smart contracts
+Low-level Comments auto-generation for Solidity Smart Contracts
+Paving the Bumpy Road to Achieving Fair High-performance Code Execution in Smart-contracts Using Low-level Metrics
